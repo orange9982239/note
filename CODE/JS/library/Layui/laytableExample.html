@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/css/layui.css" integrity="sha512-gK5o6RvUyTWSY+nO4Q9kJKGXbffUbV+u/R3bOAnCiOSIGt8GNDkvLvsQC2WaxyIQwGS56zpwt1TajavwKXBwKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/layui.js" integrity="sha512-lH7rGfsFWwehkeyJYllBq73IsiR7RH2+wuOVjr06q8NKwHp5xVnkdSvUm8RNt31QCROqtPrjAAd1VuNH0ISxqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="layui-container">
+        <div class="layui-row">
+            <div class="layui-col-sm12">
+                <table id="table_demo"></table>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+        document.addEventListener("DOMContentLoaded", async function () {
+            let dataFromAPI = await getData();
+            layui.use('table', function () {
+                layui.table.render({
+                    elem: '#table_demo',
+                    height: 312,
+                    data: dataFromAPI, //数据接口
+                    cols: [[ 
+                        { 
+                            field: '', 
+                            title: 'index',
+                            width: 80,
+                            fixed: 'left' ,
+                            templet :function(row){
+                                return row.LAY_INDEX
+                            }
+                        }, { 
+                            field: 'full_name',
+                            title: '儲存庫完整名稱',
+                            sort: true, 
+                            width: 300,
+                            fixed: 'left' 
+                        }, { 
+                            field: 'html_url',
+                            title: '儲存庫連結按鈕',
+                            width: 120,
+                            templet :function(row){
+                                // console.log(row.LAY_INDEX);
+                                // console.log(row.LAY_COL);
+                                return `<button type="button" class="layui-btn layui-btn-sm" value="${row.html_url}" onClick="window.open(this.value, '_blank').focus();">連結</button>`
+                            }
+                        }, { 
+                            field: 'description', 
+                            title: '儲存庫敘述', 
+                            sort: true, 
+                            width: 600 
+                        }
+                    ]]
+                });
+            });
+    })
+
+    async function getData(){
+        return fetch('https://api.github.com/users/orange9982239/repos', {})
+        .then((response) => {
+            // console.log(response);
+            return response.json(); 
+        }).then((json) => {
+            return json;
+        }).catch((err) => {
+            console.log('錯誤:', err);
+        });
+    }
+</script>
+</html>

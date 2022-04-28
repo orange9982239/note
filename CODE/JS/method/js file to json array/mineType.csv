@@ -1,0 +1,77 @@
+Extension,MIME Type,Kind of document,±`¥Î
+.aac,audio/aac,AAC audio,0
+.abw,application/x-abiword,AbiWord?document,0
+.arc,application/x-freearc,Archive document (multiple files embedded),0
+.avi,video/x-msvideo,AVI: Audio Video Interleave,0
+.azw,application/vnd.amazon.ebook,Amazon Kindle eBook format,0
+.bin,application/octet-stream,Any kind of binary data,0
+.bmp,image/bmp,Windows OS/2 Bitmap Graphics,0
+.bz,application/x-bzip,BZip archive,0
+.bz2,application/x-bzip2,BZip2 archive,0
+.cda,application/x-cdf,CD audio,0
+.csh,application/x-csh,C-Shell script,0
+.css,text/css,Cascading Style Sheets (CSS),0
+.csv,text/csv,Comma-separated values (CSV),1
+.doc,application/msword,Microsoft Word,1
+.docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document,Microsoft Word (OpenXML),1
+.eot,application/vnd.ms-fontobject,MS Embedded OpenType fonts,0
+.epub,application/epub+zip,Electronic publication (EPUB),0
+.gz,application/gzip,GZip Compressed Archive,0
+.gif,image/gif,Graphics Interchange Format (GIF),0
+.htm,text/html,HyperText Markup Language (HTML),0
+.html,text/html,HyperText Markup Language (HTML),0
+.ico,image/vnd.microsoft.icon,Icon format,0
+.ics,text/calendar,iCalendar format,0
+.jar,application/java-archive,Java Archive (JAR),0
+.jpg,image/jpeg,JPEG images,1
+.jpeg?,image/jpeg,JPEG images,1
+.js,"text/javascript?(Specifications:?HTML?and its?reasoning, and?IETF)",JavaScript,0
+.json,application/json,JSON format,1
+.jsonld,application/ld+json,JSON-LD format,0
+.mid?,audio/midi?audio/x-midi,Musical Instrument Digital Interface (MIDI),0
+.midi,audio/midi?audio/x-midi,Musical Instrument Digital Interface (MIDI),0
+.mjs,text/javascript,JavaScript module,0
+.mp3,audio/mpeg,MP3 audio,1
+.mp4,video/mp4,MP4 video,1
+.mpeg,video/mpeg,MPEG Video,1
+.mpkg,application/vnd.apple.installer+xml,Apple Installer Package,0
+.odp,application/vnd.oasis.opendocument.presentation,OpenDocument presentation document,1
+.ods,application/vnd.oasis.opendocument.spreadsheet,OpenDocument spreadsheet document,1
+.odt,application/vnd.oasis.opendocument.text,OpenDocument text document,1
+.oga,audio/ogg,OGG audio,0
+.ogv,video/ogg,OGG video,0
+.ogx,application/ogg,OGG,0
+.opus,audio/opus,Opus audio,0
+.otf,font/otf,OpenType font,0
+.png,image/png,Portable Network Graphics,0
+.pdf,application/pdf,Adobe?Portable Document Format?(PDF),0
+.php,application/x-httpd-php,Hypertext Preprocessor (Personal Home Page),0
+.ppt,application/vnd.ms-powerpoint,Microsoft PowerPoint,1
+.pptx,application/vnd.openxmlformats-officedocument.presentationml.presentation,Microsoft PowerPoint (OpenXML),1
+.rar,application/vnd.rar,RAR archive,1
+.rtf,application/rtf,Rich Text Format (RTF),0
+.sh,application/x-sh,Bourne shell script,0
+.svg,image/svg+xml,Scalable Vector Graphics (SVG),0
+.swf,application/x-shockwave-flash,Small web format?(SWF) or Adobe Flash document,0
+.tar,application/x-tar,Tape Archive (TAR),0
+.tif,image/tiff,Tagged Image File Format (TIFF),0
+.tiff,image/tiff,Tagged Image File Format (TIFF),0
+.ts,video/mp2t,MPEG transport stream,0
+.ttf,font/ttf,TrueType Font,0
+.txt,text/plain,"Text, (generally ASCII or ISO 8859-n)",1
+.vsd,application/vnd.visio,Microsoft Visio,0
+.wav,audio/wav,Waveform Audio Format,0
+.weba,audio/webm,WEBM audio,0
+.webm,video/webm,WEBM video,0
+.webp,image/webp,WEBP image,0
+.woff,font/woff,Web Open Font Format (WOFF),0
+.woff2,font/woff2,Web Open Font Format (WOFF),0
+.xhtml,application/xhtml+xml,XHTML,0
+.xls,application/vnd.ms-excel,Microsoft Excel,1
+.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,Microsoft Excel (OpenXML),1
+.xml,"application/xml?is recommended as of?RFC 7303?(section 4.1), but?text/xml?is still seen sometimes. A file with the extension?.xml?can often be given a more specific MIME type depending on how its contents are meant to be interpreted (for instance, an Atom feed is?application/atom+xml), but?application/xml?serves as a valid default.",XML,0
+.xul,application/vnd.mozilla.xul+xml,XUL,0
+.zip,application/zip,ZIP archive,1
+.3gp,video/3gpp?audio/3gpp?if it doesn't contain video,3GPP?audio/video container,0
+.3g2,video/3gpp2?audio/3gpp2?if it doesn't contain video,3GPP2?audio/video container,0
+.7z,application/x-7z-compressed,7-zip?archive,0

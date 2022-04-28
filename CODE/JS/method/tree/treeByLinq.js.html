@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/linq@3.2.4/linq.min.js"></script></head>
+<body>
+    
+</body>
+<script>
+    //生成樹狀結構
+    function GetTree(list,c001_id_parent_){
+        return Enumerable.from(list).where(x=>x.c001_id_parent_ == c001_id_parent_)
+        .select((x) => ({ 
+            id_: x.id_,
+            cname_: x.cname_,
+            ename_: x.ename_,
+            postal_: x.postal_,
+            c001_id_parent_: x.c001_id_parent_,
+            display_: x.display_,
+            Child: GetTree(list, x.id_) 
+        }))
+        .toArray();
+    }
+    document.addEventListener("DOMContentLoaded",async function(){
+        //#region 讀取 json file
+        var data_taiwan = await fetch("data_taiwan.json")
+            .then(response => response.json())
+            .then(json =>{
+                console.log(`load success!count=>${json.length}`)
+                return json;
+            });
+
+        var data_world = await fetch("data_world.json")
+            .then(response => response.json())
+            .then(json => {
+                console.log(`load success,count=>${json.length}`);
+                return json;
+            });
+        //#endregion
+        
+        //印出 JArray
+        console.log(GetTree(data_taiwan,null));
+        console.log(GetTree(data_world,null));
+        
+        //印出 json
+        console.log(JSON.stringify(GetTree(data_taiwan,null), null, 2));
+        console.log(JSON.stringify(GetTree(data_world,null), null, 2));
+    });
+</script>
+</html>

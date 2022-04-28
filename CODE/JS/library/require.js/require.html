@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"
+        integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mt-3">
+                <button id="btn_1" type="button" class="btn btn-primary">Primary</button>
+                <button id="btn_2" type="button" class="btn btn-secondary">Secondary</button>
+                <button id="btn_3" type="button" class="btn btn-success">Success</button>
+                <button id="btn_4" type="button" class="btn btn-danger">Danger</button>
+            </div>
+            <div class="col-sm-12 mt-3">
+                <table class="table table-hover">
+                    <thead>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new Init();
+    });
+    class Init{
+        constructor() {
+            this.LoadCSS();
+            this.LoadJS();
+        }
+        LoadCSS() {
+            let cssUrlList = [
+                'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css'
+            ];
+            return new Promise(function (resolve, reject) {
+                cssUrlList.forEach(cssUrl => {
+                    var link = document.createElement('link');
+                    link.rel = 'stylesheet';
+                    link.href = cssUrl;
+                    document.head.appendChild(link);
+                    link.onload = function () {
+                        resolve();
+                        console.log('CSS loaded.');
+                    };
+                });
+            });
+        }
+        LoadJS(){
+            requirejs.config({
+                // urlArgs: "bust=" + (new Date()).getTime(),//避免緩存
+                // 路徑或別名 記得去掉.js
+                paths: {
+                    'jquery': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min',
+                    'bootstrap': 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min',
+                },
+                // 允許cdn
+                text: {useXhr: function (url, protocol, hostname, port) {return true;}},
+                // 依賴
+                shim: {
+                    'bootstrap': { deps: ['jquery'] }
+                }
+            })
+
+            require(['jquery', 'bootstrap'], function ($) {
+                console.log("JS Loaded.");
+                return {};
+            });
+        }
+    }
+</script>
+</html>

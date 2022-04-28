@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://cdnjs.com/libraries/pdfmake -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.3.0-beta.2/pdfmake.min.js" integrity="sha512-k9XKlDENMt9s19gEl+L6F/r+OWAR4pesbUd8/SKQVMt3b1ECqsRXgLA9XnJoq4J9mjlxLQabfTxf3268lzpFUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.3.0-beta.2/vfs_fonts.min.js" integrity="sha512-6RDwGHTexMgLUqN/M2wHQ5KIR9T3WVbXd7hg0bnT+vs5ssavSnCica4Uw0EJnrErHzQa6LRfItjECPqRt4iZmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // https://pdfmake.github.io/docs/0.1/getting-started/client-side/
+    document.addEventListener("DOMContentLoaded",()=>{
+        //定義PDF內容
+        let docDefinition = {
+            content: [
+                {
+                    style: 'tableExample',
+                    color: '#444',
+                    table: {
+                        widths: [200, 'auto', 'auto'],
+                        headerRows: 2,
+                        // keepWithHeaderRows: 1,
+                        body: 
+                        [
+                            [
+                                {
+                                    text: 'Header with Colspan = 2', 
+                                    style: 'tableHeader', 
+                                    colSpan: 2, alignment: 'center'
+                                },
+                                {},
+                                {
+                                    text: 'Header 3', 
+                                    style: 'tableHeader', 
+                                    alignment: 'center'
+                                }
+                            ],
+                            [
+                                {
+                                    text: 'Header 1', 
+                                    style: 'tableHeader', 
+                                    alignment: 'center'
+                                },
+                                {
+                                    text: 'Header 2', 
+                                    style: 'tableHeader', 
+                                    alignment: 'center'
+                                },
+                                {
+                                    text: 'Header 3', 
+                                    style: 'tableHeader', 
+                                    alignment: 'center'
+                                }
+                            ],
+                            [
+                                'Sample value 1', 
+                                'Sample value 2', 
+                                'Sample value 3'
+                            ],
+                            [
+                                {
+                                    rowSpan: 3, 
+                                    text: 'rowSpan set to 3\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'
+                                }, 
+                                'Sample value 2', 'Sample value 3'
+                            ],
+                            [
+                                '', 
+                                'Sample value 2', 
+                                'Sample value 3'
+                            ],
+                            [
+                                'Sample value 1', 'Sample value 2', 'Sample value 3'
+                            ],
+                            [
+                                'Sample value 1',
+                                {
+                                    colSpan: 2, 
+                                    rowSpan: 2, 
+                                    text: 'Both:\nrowSpan and colSpan\ncan be defined at the same time'
+                                }, 
+                                ''
+                            ],
+                            [
+                                '來點中文試試',
+                                '',
+                                ''
+                            ],
+                        ]
+                    }
+                }
+            ],
+            styles: {
+                header: {
+                    fontSize: 18,
+                    bold: true,
+                    margin: [0, 0, 0, 10]
+                },
+                subheader: {
+                    fontSize: 16,
+                    bold: true,
+                    margin: [0, 10, 0, 5]
+                },
+                tableExample: {
+                    margin: [0, 5, 0, 15]
+                },
+                tableHeader: {
+                    bold: true,
+                    fontSize: 13,
+                    color: 'black'
+                }
+            },
+            defaultStyle: {
+                // alignment: 'justify'
+                font: 'PingFangSC'
+            }
+        };
+        
+        //給字體
+        pdfMake.fonts = {
+            PingFangSC: {
+                normal:'https://raw.githubusercontent.com/zongren/font/master/PingFang-SC-Regular.ttf',
+                bold: 'https://raw.githubusercontent.com/zongren/font/master/PingFang-SC-Bold.ttf',
+            }
+        };
+
+        //下載PDF
+        if (confirm("open pdf?")) {
+            pdfMake.createPdf(docDefinition).download();
+        }
+    });
+
+</script>
+</html>

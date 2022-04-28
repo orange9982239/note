@@ -1,0 +1,3218 @@
+[
+  {
+    "id_": "TW",
+    "cname_": "臺灣",
+    "ename_": "Taiwan, Province of China",
+    "postal_": null,
+    "c001_id_parent_": null,
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-000",
+    "cname_": "未知",
+    "ename_": null,
+    "postal_": "000",
+    "c001_id_parent_": "TW-oth",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-100",
+    "cname_": "中正區",
+    "ename_": "Zhongzheng Dist.",
+    "postal_": "100",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-103",
+    "cname_": "大同區",
+    "ename_": "Datong Dist.",
+    "postal_": "103",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-104",
+    "cname_": "中山區",
+    "ename_": "Zhongshan Dist.",
+    "postal_": "104",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-105",
+    "cname_": "松山區",
+    "ename_": "Songshan Dist.",
+    "postal_": "105",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-106",
+    "cname_": "大安區",
+    "ename_": "Da'an Dist.",
+    "postal_": "106",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-108",
+    "cname_": "萬華區",
+    "ename_": "Wanhua Dist.",
+    "postal_": "108",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-110",
+    "cname_": "信義區",
+    "ename_": "Xinyi Dist.",
+    "postal_": "110",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-111",
+    "cname_": "士林區",
+    "ename_": "Shilin Dist.",
+    "postal_": "111",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-112",
+    "cname_": "北投區",
+    "ename_": "Beitou Dist.",
+    "postal_": "112",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-114",
+    "cname_": "內湖區",
+    "ename_": "Neihu Dist.",
+    "postal_": "114",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-115",
+    "cname_": "南港區",
+    "ename_": "Nangang Dist.",
+    "postal_": "115",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-116",
+    "cname_": "文山區",
+    "ename_": "Wenshan Dist.",
+    "postal_": "116",
+    "c001_id_parent_": "TW-TPE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-200",
+    "cname_": "仁愛區",
+    "ename_": "Ren'ai Dist.",
+    "postal_": "200",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-201",
+    "cname_": "信義區",
+    "ename_": "Xinyi Dist.",
+    "postal_": "201",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-202",
+    "cname_": "中正區",
+    "ename_": "Zhongzheng Dist.",
+    "postal_": "202",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-203",
+    "cname_": "中山區",
+    "ename_": "Zhongshan Dist.",
+    "postal_": "203",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-204",
+    "cname_": "安樂區",
+    "ename_": "Anle Dist.",
+    "postal_": "204",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-205",
+    "cname_": "暖暖區",
+    "ename_": "Nuannuan Dist.",
+    "postal_": "205",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-206",
+    "cname_": "七堵區",
+    "ename_": "Qidu Dist.",
+    "postal_": "206",
+    "c001_id_parent_": "TW-KEE",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-207",
+    "cname_": "萬里區",
+    "ename_": "Wanli Dist.",
+    "postal_": "207",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-208",
+    "cname_": "金山區",
+    "ename_": "Jinshan Dist.",
+    "postal_": "208",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-209",
+    "cname_": "南竿鄉",
+    "ename_": "Nangan Township",
+    "postal_": "209",
+    "c001_id_parent_": "TW-LC",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-210",
+    "cname_": "北竿鄉",
+    "ename_": "Beigan Township",
+    "postal_": "210",
+    "c001_id_parent_": "TW-LC",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-211",
+    "cname_": "莒光鄉",
+    "ename_": "Juguang Township",
+    "postal_": "211",
+    "c001_id_parent_": "TW-LC",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-212",
+    "cname_": "東引鄉",
+    "ename_": "Dongyin Township",
+    "postal_": "212",
+    "c001_id_parent_": "TW-LC",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-220",
+    "cname_": "板橋區",
+    "ename_": "Banqiao Dist.",
+    "postal_": "220",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-221",
+    "cname_": "汐止區",
+    "ename_": "Xizhi Dist.",
+    "postal_": "221",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-222",
+    "cname_": "深坑區",
+    "ename_": "Shenkeng Dist.",
+    "postal_": "222",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-223",
+    "cname_": "石碇區",
+    "ename_": "Shiding Dist.",
+    "postal_": "223",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-224",
+    "cname_": "瑞芳區",
+    "ename_": "Ruifang Dist.",
+    "postal_": "224",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-226",
+    "cname_": "平溪區",
+    "ename_": "Pingxi Dist.",
+    "postal_": "226",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-227",
+    "cname_": "雙溪區",
+    "ename_": "Shuangxi Dist.",
+    "postal_": "227",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-228",
+    "cname_": "貢寮區",
+    "ename_": "Gongliao Dist.",
+    "postal_": "228",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-231",
+    "cname_": "新店區",
+    "ename_": "Xindian Dist.",
+    "postal_": "231",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-232",
+    "cname_": "坪林區",
+    "ename_": "Pinglin Dist.",
+    "postal_": "232",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-233",
+    "cname_": "烏來區",
+    "ename_": "Wulai Dist.",
+    "postal_": "233",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-234",
+    "cname_": "永和區",
+    "ename_": "Yonghe Dist.",
+    "postal_": "234",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-235",
+    "cname_": "中和區",
+    "ename_": "Zhonghe Dist.",
+    "postal_": "235",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-236",
+    "cname_": "土城區",
+    "ename_": "Tucheng Dist.",
+    "postal_": "236",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-237",
+    "cname_": "三峽區",
+    "ename_": "Sanxia Dist.",
+    "postal_": "237",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-238",
+    "cname_": "樹林區",
+    "ename_": "Shulin Dist.",
+    "postal_": "238",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-239",
+    "cname_": "鶯歌區",
+    "ename_": "Yingge Dist.",
+    "postal_": "239",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-241",
+    "cname_": "三重區",
+    "ename_": "Sanchong Dist.",
+    "postal_": "241",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-242",
+    "cname_": "新莊區",
+    "ename_": "Xinzhuang Dist.",
+    "postal_": "242",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-243",
+    "cname_": "泰山區",
+    "ename_": "Taishan Dist.",
+    "postal_": "243",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-244",
+    "cname_": "林口區",
+    "ename_": "Linkou Dist.",
+    "postal_": "244",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-247",
+    "cname_": "蘆洲區",
+    "ename_": "Luzhou Dist.",
+    "postal_": "247",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-248",
+    "cname_": "五股區",
+    "ename_": "Wugu Dist.",
+    "postal_": "248",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-249",
+    "cname_": "八里區",
+    "ename_": "Bali Dist.",
+    "postal_": "249",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-251",
+    "cname_": "淡水區",
+    "ename_": "Tamsui Dist.",
+    "postal_": "251",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-252",
+    "cname_": "三芝區",
+    "ename_": "Sanzhi Dist.",
+    "postal_": "252",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-253",
+    "cname_": "石門區",
+    "ename_": "Shimen Dist.",
+    "postal_": "253",
+    "c001_id_parent_": "TW-TPQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-260",
+    "cname_": "宜蘭市",
+    "ename_": "Yilan City",
+    "postal_": "260",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-261",
+    "cname_": "頭城鎮",
+    "ename_": "Toucheng Township",
+    "postal_": "261",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-262",
+    "cname_": "礁溪鄉",
+    "ename_": "Jiaoxi Township",
+    "postal_": "262",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-263",
+    "cname_": "壯圍鄉",
+    "ename_": "Zhuangwei Township",
+    "postal_": "263",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-264",
+    "cname_": "員山鄉",
+    "ename_": "Yuanshan Township",
+    "postal_": "264",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-265",
+    "cname_": "羅東鎮",
+    "ename_": "Luodong Township",
+    "postal_": "265",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-266",
+    "cname_": "三星鄉",
+    "ename_": "Sanxing Township",
+    "postal_": "266",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-267",
+    "cname_": "大同鄉",
+    "ename_": "Datong Township",
+    "postal_": "267",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-268",
+    "cname_": "五結鄉",
+    "ename_": "Wujie Township",
+    "postal_": "268",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-269",
+    "cname_": "冬山鄉",
+    "ename_": "Dongshan Township",
+    "postal_": "269",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-270",
+    "cname_": "蘇澳鎮",
+    "ename_": "Su'ao Township",
+    "postal_": "270",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-272",
+    "cname_": "南澳鄉",
+    "ename_": "Nan'ao Township",
+    "postal_": "272",
+    "c001_id_parent_": "TW-ILA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-290",
+    "cname_": "釣魚臺",
+    "ename_": "Diaoyutai",
+    "postal_": "290",
+    "c001_id_parent_": "TW-oth",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-300-0",
+    "cname_": "新竹市(區未知)",
+    "ename_": null,
+    "postal_": "300",
+    "c001_id_parent_": "TW-HSZ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-300-1",
+    "cname_": "東區",
+    "ename_": "East Dist.",
+    "postal_": "300",
+    "c001_id_parent_": "TW-HSZ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-300-2",
+    "cname_": "北區",
+    "ename_": "North Dist.",
+    "postal_": "300",
+    "c001_id_parent_": "TW-HSZ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-300-3",
+    "cname_": "香山區",
+    "ename_": "Xiangshan Dist.",
+    "postal_": "300",
+    "c001_id_parent_": "TW-HSZ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-302",
+    "cname_": "竹北市",
+    "ename_": "Zhubei City",
+    "postal_": "302",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-303",
+    "cname_": "湖口鄉",
+    "ename_": "Hukou Township",
+    "postal_": "303",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-304",
+    "cname_": "新豐鄉",
+    "ename_": "Xinfeng Township",
+    "postal_": "304",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-305",
+    "cname_": "新埔鎮",
+    "ename_": "Xinpu Township",
+    "postal_": "305",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-306",
+    "cname_": "關西鎮",
+    "ename_": "Guanxi Township",
+    "postal_": "306",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-307",
+    "cname_": "芎林鄉",
+    "ename_": "Qionglin Township",
+    "postal_": "307",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-308",
+    "cname_": "寶山鄉",
+    "ename_": "Baoshan Township",
+    "postal_": "308",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-310",
+    "cname_": "竹東鎮",
+    "ename_": "Zhudong Township",
+    "postal_": "310",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-311",
+    "cname_": "五峰鄉",
+    "ename_": "Wufeng Township",
+    "postal_": "311",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-312",
+    "cname_": "橫山鄉",
+    "ename_": "Hengshan Township",
+    "postal_": "312",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-313",
+    "cname_": "尖石鄉",
+    "ename_": "Jianshi Township",
+    "postal_": "313",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-314",
+    "cname_": "北埔鄉",
+    "ename_": "Beipu Township",
+    "postal_": "314",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-315",
+    "cname_": "峨眉鄉",
+    "ename_": "Emei Township",
+    "postal_": "315",
+    "c001_id_parent_": "TW-HSQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-320",
+    "cname_": "中壢區",
+    "ename_": "Zhongli City",
+    "postal_": "320",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-324",
+    "cname_": "平鎮區",
+    "ename_": "Pingzhen City",
+    "postal_": "324",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-325",
+    "cname_": "龍潭區",
+    "ename_": "Longtan Township",
+    "postal_": "325",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-326",
+    "cname_": "楊梅區",
+    "ename_": "Yangmei City",
+    "postal_": "326",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-327",
+    "cname_": "新屋區",
+    "ename_": "Xinwu Township",
+    "postal_": "327",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-328",
+    "cname_": "觀音區",
+    "ename_": "Guanyin Township",
+    "postal_": "328",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-330",
+    "cname_": "桃園區",
+    "ename_": "Taoyuan City",
+    "postal_": "330",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-333",
+    "cname_": "龜山區",
+    "ename_": "Guishan Township",
+    "postal_": "333",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-334",
+    "cname_": "八德區",
+    "ename_": "Bade City",
+    "postal_": "334",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-335",
+    "cname_": "大溪區",
+    "ename_": "Daxi Township",
+    "postal_": "335",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-336",
+    "cname_": "復興區",
+    "ename_": "Fuxing Township",
+    "postal_": "336",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-337",
+    "cname_": "大園區",
+    "ename_": "Dayuan Township",
+    "postal_": "337",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-338",
+    "cname_": "蘆竹區",
+    "ename_": "Luzhu Township",
+    "postal_": "338",
+    "c001_id_parent_": "TW-TAO",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-350",
+    "cname_": "竹南鎮",
+    "ename_": "Zhunan Townshi",
+    "postal_": "350",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-351",
+    "cname_": "頭份市",
+    "ename_": "Toufen Townshi",
+    "postal_": "351",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-352",
+    "cname_": "三灣鄉",
+    "ename_": "Sanwan Townshi",
+    "postal_": "352",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-353",
+    "cname_": "南庄鄉",
+    "ename_": "Nanzhuang Townshi",
+    "postal_": "353",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-354",
+    "cname_": "獅潭鄉",
+    "ename_": "Shitan Townshi",
+    "postal_": "354",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-356",
+    "cname_": "後龍鎮",
+    "ename_": "Houlong Townshi",
+    "postal_": "356",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-357",
+    "cname_": "通霄鎮",
+    "ename_": "Tongxiao Townshi",
+    "postal_": "357",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-358",
+    "cname_": "苑裡鎮",
+    "ename_": "Yuanli Townshi",
+    "postal_": "358",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-360",
+    "cname_": "苗栗市",
+    "ename_": "Miaoli Cit",
+    "postal_": "360",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-361",
+    "cname_": "造橋鄉",
+    "ename_": "Zaoqiao Townshi",
+    "postal_": "361",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-362",
+    "cname_": "頭屋鄉",
+    "ename_": "Touwu Townshi",
+    "postal_": "362",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-363",
+    "cname_": "公館鄉",
+    "ename_": "Gongguan Townshi",
+    "postal_": "363",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-364",
+    "cname_": "大湖鄉",
+    "ename_": "Dahu Townshi",
+    "postal_": "364",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-365",
+    "cname_": "泰安鄉",
+    "ename_": "Tai'an Townshi",
+    "postal_": "365",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-366",
+    "cname_": "銅鑼鄉",
+    "ename_": "Tongluo Townshi",
+    "postal_": "366",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-367",
+    "cname_": "三義鄉",
+    "ename_": "Sanyi Townshi",
+    "postal_": "367",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-368",
+    "cname_": "西湖鄉",
+    "ename_": "Xihu Townshi",
+    "postal_": "368",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-369",
+    "cname_": "卓蘭鎮",
+    "ename_": "Zhuolan Townshi",
+    "postal_": "369",
+    "c001_id_parent_": "TW-MIA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-400",
+    "cname_": "中區",
+    "ename_": "Central Dist.",
+    "postal_": "400",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-401",
+    "cname_": "東區",
+    "ename_": "East Dist.",
+    "postal_": "401",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-402",
+    "cname_": "南區",
+    "ename_": "South Dist.",
+    "postal_": "402",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-403",
+    "cname_": "西區",
+    "ename_": "West Dist.",
+    "postal_": "403",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-404",
+    "cname_": "北區",
+    "ename_": "North Dist.",
+    "postal_": "404",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-406",
+    "cname_": "北屯區",
+    "ename_": "Beitun Dist.",
+    "postal_": "406",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-407",
+    "cname_": "西屯區",
+    "ename_": "Xitun Dist.",
+    "postal_": "407",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-408",
+    "cname_": "南屯區",
+    "ename_": "Nantun Dist.",
+    "postal_": "408",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-411",
+    "cname_": "太平區",
+    "ename_": "Taiping Dist.",
+    "postal_": "411",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-412",
+    "cname_": "大里區",
+    "ename_": "Dali Dist.",
+    "postal_": "412",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-413",
+    "cname_": "霧峰區",
+    "ename_": "Wufeng Dist.",
+    "postal_": "413",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-414",
+    "cname_": "烏日區",
+    "ename_": "Wuri Dist.",
+    "postal_": "414",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-420",
+    "cname_": "豐原區",
+    "ename_": "Fengyuan Dist.",
+    "postal_": "420",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-421",
+    "cname_": "后里區",
+    "ename_": "Houli Dist.",
+    "postal_": "421",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-422",
+    "cname_": "石岡區",
+    "ename_": "Shigang Dist.",
+    "postal_": "422",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-423",
+    "cname_": "東勢區",
+    "ename_": "Dongshi Dist.",
+    "postal_": "423",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-424",
+    "cname_": "和平區",
+    "ename_": "Heping Dist.",
+    "postal_": "424",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-426",
+    "cname_": "新社區",
+    "ename_": "Xinshe Dist.",
+    "postal_": "426",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-427",
+    "cname_": "潭子區",
+    "ename_": "Tanzi Dist.",
+    "postal_": "427",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-428",
+    "cname_": "大雅區",
+    "ename_": "Daya Dist.",
+    "postal_": "428",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-429",
+    "cname_": "神岡區",
+    "ename_": "Shengang Dist.",
+    "postal_": "429",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-432",
+    "cname_": "大肚區",
+    "ename_": "Dadu Dist.",
+    "postal_": "432",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-433",
+    "cname_": "沙鹿區",
+    "ename_": "Shalu Dist.",
+    "postal_": "433",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-434",
+    "cname_": "龍井區",
+    "ename_": "Longjing Dist.",
+    "postal_": "434",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-435",
+    "cname_": "梧棲區",
+    "ename_": "Wuqi Dist.",
+    "postal_": "435",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-436",
+    "cname_": "清水區",
+    "ename_": "Qingshui Dist.",
+    "postal_": "436",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-437",
+    "cname_": "大甲區",
+    "ename_": "Dajia Dist.",
+    "postal_": "437",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-438",
+    "cname_": "外埔區",
+    "ename_": "Waipu Dist.",
+    "postal_": "438",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-439",
+    "cname_": "大安區",
+    "ename_": "Da'an Dist.",
+    "postal_": "439",
+    "c001_id_parent_": "TW-TXG",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-500",
+    "cname_": "彰化市",
+    "ename_": "Changhua City",
+    "postal_": "500",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-502",
+    "cname_": "芬園鄉",
+    "ename_": "Fenyuan Township",
+    "postal_": "502",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-503",
+    "cname_": "花壇鄉",
+    "ename_": "Huatan Township",
+    "postal_": "503",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-504",
+    "cname_": "秀水鄉",
+    "ename_": "Xiushui Township",
+    "postal_": "504",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-505",
+    "cname_": "鹿港鎮",
+    "ename_": "Lukang Township",
+    "postal_": "505",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-506",
+    "cname_": "福興鄉",
+    "ename_": "Fuxing Township",
+    "postal_": "506",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-507",
+    "cname_": "線西鄉",
+    "ename_": "Xianxi Township",
+    "postal_": "507",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-508",
+    "cname_": "和美鎮",
+    "ename_": "Hemei Township",
+    "postal_": "508",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-509",
+    "cname_": "伸港鄉",
+    "ename_": "Shengang Township",
+    "postal_": "509",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-510",
+    "cname_": "員林鎮",
+    "ename_": "Yuanlin Township",
+    "postal_": "510",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-511",
+    "cname_": "社頭鄉",
+    "ename_": "Shetou Township",
+    "postal_": "511",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-512",
+    "cname_": "永靖鄉",
+    "ename_": "Yongjing Township",
+    "postal_": "512",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-513",
+    "cname_": "埔心鄉",
+    "ename_": "Puxin Township",
+    "postal_": "513",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-514",
+    "cname_": "溪湖鎮",
+    "ename_": "Xihu Township",
+    "postal_": "514",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-515",
+    "cname_": "大村鄉",
+    "ename_": "Dacun Township",
+    "postal_": "515",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-516",
+    "cname_": "埔鹽鄉",
+    "ename_": "Puyan Township",
+    "postal_": "516",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-520",
+    "cname_": "田中鎮",
+    "ename_": "Tianzhong Township",
+    "postal_": "520",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-521",
+    "cname_": "北斗鎮",
+    "ename_": "Beidou Township",
+    "postal_": "521",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-522",
+    "cname_": "田尾鄉",
+    "ename_": "Tianwei Township",
+    "postal_": "522",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-523",
+    "cname_": "埤頭鄉",
+    "ename_": "Pitou Township",
+    "postal_": "523",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-524",
+    "cname_": "溪州鄉",
+    "ename_": "Xizhou Township",
+    "postal_": "524",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-525",
+    "cname_": "竹塘鄉",
+    "ename_": "Zhutang Township",
+    "postal_": "525",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-526",
+    "cname_": "二林鎮",
+    "ename_": "Erlin Township",
+    "postal_": "526",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-527",
+    "cname_": "大城鄉",
+    "ename_": "Dacheng Township",
+    "postal_": "527",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-528",
+    "cname_": "芳苑鄉",
+    "ename_": "Fangyuan Township",
+    "postal_": "528",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-530",
+    "cname_": "二水鄉",
+    "ename_": "Ershui Township",
+    "postal_": "530",
+    "c001_id_parent_": "TW-CHA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-540",
+    "cname_": "南投市",
+    "ename_": "Nantou City",
+    "postal_": "540",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-541",
+    "cname_": "中寮鄉",
+    "ename_": "Zhongliao Township",
+    "postal_": "541",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-542",
+    "cname_": "草屯鎮",
+    "ename_": "Caotun Township",
+    "postal_": "542",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-544",
+    "cname_": "國姓鄉",
+    "ename_": "Guoxing Township",
+    "postal_": "544",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-545",
+    "cname_": "埔里鎮",
+    "ename_": "Puli Township",
+    "postal_": "545",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-546",
+    "cname_": "仁愛鄉",
+    "ename_": "Ren'ai Township",
+    "postal_": "546",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-551",
+    "cname_": "名間鄉",
+    "ename_": "Mingjian Township",
+    "postal_": "551",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-552",
+    "cname_": "集集鎮",
+    "ename_": "Jiji Township",
+    "postal_": "552",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-553",
+    "cname_": "水里鄉",
+    "ename_": "Shuili Township",
+    "postal_": "553",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-555",
+    "cname_": "魚池鄉",
+    "ename_": "Yuchi Township",
+    "postal_": "555",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-556",
+    "cname_": "信義鄉",
+    "ename_": "Xinyi Township",
+    "postal_": "556",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-557",
+    "cname_": "竹山鎮",
+    "ename_": "Zhushan Township",
+    "postal_": "557",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-558",
+    "cname_": "鹿谷鄉",
+    "ename_": "Lugu Township",
+    "postal_": "558",
+    "c001_id_parent_": "TW-NAN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-600-0",
+    "cname_": "嘉義市(區未知)",
+    "ename_": null,
+    "postal_": "600",
+    "c001_id_parent_": "TW-CYI",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-600-1",
+    "cname_": "東區",
+    "ename_": "East Dist.",
+    "postal_": "600",
+    "c001_id_parent_": "TW-CYI",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-600-2",
+    "cname_": "西區",
+    "ename_": "West Dist.",
+    "postal_": "600",
+    "c001_id_parent_": "TW-CYI",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-602",
+    "cname_": "番路鄉",
+    "ename_": "Fanlu Township",
+    "postal_": "602",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-603",
+    "cname_": "梅山鄉",
+    "ename_": "Meishan Township",
+    "postal_": "603",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-604",
+    "cname_": "竹崎鄉",
+    "ename_": "Zhuqi Township",
+    "postal_": "604",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-605",
+    "cname_": "阿里山鄉",
+    "ename_": "Alishan Township",
+    "postal_": "605",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-606",
+    "cname_": "中埔鄉",
+    "ename_": "Zhongpu Township",
+    "postal_": "606",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-607",
+    "cname_": "大埔鄉",
+    "ename_": "Dapu Township",
+    "postal_": "607",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-608",
+    "cname_": "水上鄉",
+    "ename_": "Shuishang Township",
+    "postal_": "608",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-611",
+    "cname_": "鹿草鄉",
+    "ename_": "Lucao Township",
+    "postal_": "611",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-612",
+    "cname_": "太保市",
+    "ename_": "Taibao City",
+    "postal_": "612",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-613",
+    "cname_": "朴子市",
+    "ename_": "Puzi City",
+    "postal_": "613",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-614",
+    "cname_": "東石鄉",
+    "ename_": "Dongshi Township",
+    "postal_": "614",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-615",
+    "cname_": "六腳鄉",
+    "ename_": "Liujiao Township",
+    "postal_": "615",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-616",
+    "cname_": "新港鄉",
+    "ename_": "Xingang Township",
+    "postal_": "616",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-621",
+    "cname_": "民雄鄉",
+    "ename_": "Minxiong Township",
+    "postal_": "621",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-622",
+    "cname_": "大林鎮",
+    "ename_": "Dalin Township",
+    "postal_": "622",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-623",
+    "cname_": "溪口鄉",
+    "ename_": "Xikou Township",
+    "postal_": "623",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-624",
+    "cname_": "義竹鄉",
+    "ename_": "Yizhu Township",
+    "postal_": "624",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-625",
+    "cname_": "布袋鎮",
+    "ename_": "Budai Township",
+    "postal_": "625",
+    "c001_id_parent_": "TW-CYQ",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-630",
+    "cname_": "斗南鎮",
+    "ename_": "Dounan Township",
+    "postal_": "630",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-631",
+    "cname_": "大埤鄉",
+    "ename_": "Dapi Township",
+    "postal_": "631",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-632",
+    "cname_": "虎尾鎮",
+    "ename_": "Huwei Township",
+    "postal_": "632",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-633",
+    "cname_": "土庫鎮",
+    "ename_": "Tuku Township",
+    "postal_": "633",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-634",
+    "cname_": "褒忠鄉",
+    "ename_": "Baozhong Township",
+    "postal_": "634",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-635",
+    "cname_": "東勢鄉",
+    "ename_": "Dongshi Township",
+    "postal_": "635",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-636",
+    "cname_": "臺西鄉",
+    "ename_": "Taixi Township",
+    "postal_": "636",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-637",
+    "cname_": "崙背鄉",
+    "ename_": "Lunbei Township",
+    "postal_": "637",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-638",
+    "cname_": "麥寮鄉",
+    "ename_": "Mailiao Township",
+    "postal_": "638",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-640",
+    "cname_": "斗六市",
+    "ename_": "Douliu City",
+    "postal_": "640",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-643",
+    "cname_": "林內鄉",
+    "ename_": "Linnei Township",
+    "postal_": "643",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-646",
+    "cname_": "古坑鄉",
+    "ename_": "Gukeng Township",
+    "postal_": "646",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-647",
+    "cname_": "莿桐鄉",
+    "ename_": "Citong Township",
+    "postal_": "647",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-648",
+    "cname_": "西螺鎮",
+    "ename_": "Xiluo Township",
+    "postal_": "648",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-649",
+    "cname_": "二崙鄉",
+    "ename_": "Erlun Township",
+    "postal_": "649",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-651",
+    "cname_": "北港鎮",
+    "ename_": "Beigang Township",
+    "postal_": "651",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-652",
+    "cname_": "水林鄉",
+    "ename_": "Shuilin Township",
+    "postal_": "652",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-653",
+    "cname_": "口湖鄉",
+    "ename_": "Kouhu Township",
+    "postal_": "653",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-654",
+    "cname_": "四湖鄉",
+    "ename_": "Sihu Township",
+    "postal_": "654",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-655",
+    "cname_": "元長鄉",
+    "ename_": "Yuanchang Township",
+    "postal_": "655",
+    "c001_id_parent_": "TW-YUN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-700",
+    "cname_": "中西區",
+    "ename_": "West Central Dist.",
+    "postal_": "700",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-701",
+    "cname_": "東區",
+    "ename_": "East Dist.",
+    "postal_": "701",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-702",
+    "cname_": "南區",
+    "ename_": "South Dist.",
+    "postal_": "702",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-704",
+    "cname_": "北區",
+    "ename_": "North Dist.",
+    "postal_": "704",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-708",
+    "cname_": "安平區",
+    "ename_": "Anping Dist.",
+    "postal_": "708",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-709",
+    "cname_": "安南區",
+    "ename_": "Annan Dist.",
+    "postal_": "709",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-710",
+    "cname_": "永康區",
+    "ename_": "Yongkang Dist.",
+    "postal_": "710",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-711",
+    "cname_": "歸仁區",
+    "ename_": "Guiren Dist.",
+    "postal_": "711",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-712",
+    "cname_": "新化區",
+    "ename_": "Xinhua Dist.",
+    "postal_": "712",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-713",
+    "cname_": "左鎮區",
+    "ename_": "Zuozhen Dist.",
+    "postal_": "713",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-714",
+    "cname_": "玉井區",
+    "ename_": "Yujing Dist.",
+    "postal_": "714",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-715",
+    "cname_": "楠西區",
+    "ename_": "Nanxi Dist.",
+    "postal_": "715",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-716",
+    "cname_": "南化區",
+    "ename_": "Nanhua Dist.",
+    "postal_": "716",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-717",
+    "cname_": "仁德區",
+    "ename_": "Rende Dist.",
+    "postal_": "717",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-718",
+    "cname_": "關廟區",
+    "ename_": "Guanmiao Dist.",
+    "postal_": "718",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-719",
+    "cname_": "龍崎區",
+    "ename_": "Longqi Dist.",
+    "postal_": "719",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-720",
+    "cname_": "官田區",
+    "ename_": "Guantian Dist.",
+    "postal_": "720",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-721",
+    "cname_": "麻豆區",
+    "ename_": "Madou Dist.",
+    "postal_": "721",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-722",
+    "cname_": "佳里區",
+    "ename_": "Jiali Dist.",
+    "postal_": "722",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-723",
+    "cname_": "西港區",
+    "ename_": "Xigang Dist.",
+    "postal_": "723",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-724",
+    "cname_": "七股區",
+    "ename_": "Qigu Dist.",
+    "postal_": "724",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-725",
+    "cname_": "將軍區",
+    "ename_": "Jiangjun Dist.",
+    "postal_": "725",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-726",
+    "cname_": "學甲區",
+    "ename_": "Xuejia Dist.",
+    "postal_": "726",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-727",
+    "cname_": "北門區",
+    "ename_": "Beimen Dist.",
+    "postal_": "727",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-730",
+    "cname_": "新營區",
+    "ename_": "Xinying Dist.",
+    "postal_": "730",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-731",
+    "cname_": "後壁區",
+    "ename_": "Houbi Dist.",
+    "postal_": "731",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-732",
+    "cname_": "白河區",
+    "ename_": "Baihe Dist.",
+    "postal_": "732",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-733",
+    "cname_": "東山區",
+    "ename_": "Dongshan Dist.",
+    "postal_": "733",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-734",
+    "cname_": "六甲區",
+    "ename_": "Liujia Dist.",
+    "postal_": "734",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-735",
+    "cname_": "下營區",
+    "ename_": "Xiaying Dist.",
+    "postal_": "735",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-736",
+    "cname_": "柳營區",
+    "ename_": "Liuying Dist.",
+    "postal_": "736",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-737",
+    "cname_": "鹽水區",
+    "ename_": "Yanshui Dist.",
+    "postal_": "737",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-741",
+    "cname_": "善化區",
+    "ename_": "Shanhua Dist.",
+    "postal_": "741",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-742",
+    "cname_": "大內區",
+    "ename_": "Danei Dist.",
+    "postal_": "742",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-743",
+    "cname_": "山上區",
+    "ename_": "Shanshang Dist.",
+    "postal_": "743",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-744",
+    "cname_": "新市區",
+    "ename_": "Xinshi Dist.",
+    "postal_": "744",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-745",
+    "cname_": "安定區",
+    "ename_": "Anding Dist.",
+    "postal_": "745",
+    "c001_id_parent_": "TW-TNN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-800",
+    "cname_": "新興區",
+    "ename_": "Xinxing Dist.",
+    "postal_": "800",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-801",
+    "cname_": "前金區",
+    "ename_": "Qianjin Dist.",
+    "postal_": "801",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-802",
+    "cname_": "苓雅區",
+    "ename_": "Lingya Dist.",
+    "postal_": "802",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-803",
+    "cname_": "鹽埕區",
+    "ename_": "Yancheng Dist.",
+    "postal_": "803",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-804",
+    "cname_": "鼓山區",
+    "ename_": "Gushan Dist.",
+    "postal_": "804",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-805",
+    "cname_": "旗津區",
+    "ename_": "Qijin Dist.",
+    "postal_": "805",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-806",
+    "cname_": "前鎮區",
+    "ename_": "Qianzhen Dist.",
+    "postal_": "806",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-807",
+    "cname_": "三民區",
+    "ename_": "Sanmin Dist.",
+    "postal_": "807",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-811",
+    "cname_": "楠梓區",
+    "ename_": "Nanzi Dist.",
+    "postal_": "811",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-812",
+    "cname_": "小港區",
+    "ename_": "Xiaogang Dist.",
+    "postal_": "812",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-813",
+    "cname_": "左營區",
+    "ename_": "Zuoying Dist.",
+    "postal_": "813",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-814",
+    "cname_": "仁武區",
+    "ename_": "Renwu Dist.",
+    "postal_": "814",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-815",
+    "cname_": "大社區",
+    "ename_": "Dashe Dist.",
+    "postal_": "815",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-817",
+    "cname_": "東沙群島",
+    "ename_": "Dongsha Islands",
+    "postal_": "817",
+    "c001_id_parent_": "TW-NH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-819",
+    "cname_": "南沙群島",
+    "ename_": "Nansha Islands",
+    "postal_": "819",
+    "c001_id_parent_": "TW-NH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-820",
+    "cname_": "岡山區",
+    "ename_": "Gangshan Dist.",
+    "postal_": "820",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-821",
+    "cname_": "路竹區",
+    "ename_": "Luzhu Dist.",
+    "postal_": "821",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-822",
+    "cname_": "阿蓮區",
+    "ename_": "Alian Dist.",
+    "postal_": "822",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-823",
+    "cname_": "田寮區",
+    "ename_": "Tianliao Dist.",
+    "postal_": "823",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-824",
+    "cname_": "燕巢區",
+    "ename_": "Yanchao Dist.",
+    "postal_": "824",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-825",
+    "cname_": "橋頭區",
+    "ename_": "Qiaotou Dist.",
+    "postal_": "825",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-826",
+    "cname_": "梓官區",
+    "ename_": "Ziguan Dist.",
+    "postal_": "826",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-827",
+    "cname_": "彌陀區",
+    "ename_": "Mituo Dist.",
+    "postal_": "827",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-828",
+    "cname_": "永安區",
+    "ename_": "Yong'an Dist.",
+    "postal_": "828",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-829",
+    "cname_": "湖內區",
+    "ename_": "Hunei Dist.",
+    "postal_": "829",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-830",
+    "cname_": "鳳山區",
+    "ename_": "Fengshan Dist.",
+    "postal_": "830",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-831",
+    "cname_": "大寮區",
+    "ename_": "Daliao Dist.",
+    "postal_": "831",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-832",
+    "cname_": "林園區",
+    "ename_": "Linyuan Dist.",
+    "postal_": "832",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-833",
+    "cname_": "鳥松區",
+    "ename_": "Niaosong Dist.",
+    "postal_": "833",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-840",
+    "cname_": "大樹區",
+    "ename_": "Dashu Dist.",
+    "postal_": "840",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-842",
+    "cname_": "旗山區",
+    "ename_": "Qishan Dist.",
+    "postal_": "842",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-843",
+    "cname_": "美濃區",
+    "ename_": "Meinong Dist.",
+    "postal_": "843",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-844",
+    "cname_": "六龜區",
+    "ename_": "Liugui Dist.",
+    "postal_": "844",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-845",
+    "cname_": "內門區",
+    "ename_": "Neimen Dist.",
+    "postal_": "845",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-846",
+    "cname_": "杉林區",
+    "ename_": "Shanlin Dist.",
+    "postal_": "846",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-847",
+    "cname_": "甲仙區",
+    "ename_": "Jiaxian Dist.",
+    "postal_": "847",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-848",
+    "cname_": "桃源區",
+    "ename_": "Taoyuan Dist.",
+    "postal_": "848",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-849",
+    "cname_": "那瑪夏區",
+    "ename_": "Namaxia Dist.",
+    "postal_": "849",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-851",
+    "cname_": "茂林區",
+    "ename_": "Maolin Dist.",
+    "postal_": "851",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-852",
+    "cname_": "茄萣區",
+    "ename_": "Qieding Dist.",
+    "postal_": "852",
+    "c001_id_parent_": "TW-KHH",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-880",
+    "cname_": "馬公市",
+    "ename_": "Magong City",
+    "postal_": "880",
+    "c001_id_parent_": "TW-PEN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-881",
+    "cname_": "西嶼鄉",
+    "ename_": "Xiyu Township",
+    "postal_": "881",
+    "c001_id_parent_": "TW-PEN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-882",
+    "cname_": "望安鄉",
+    "ename_": "Wang'an Township",
+    "postal_": "882",
+    "c001_id_parent_": "TW-PEN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-883",
+    "cname_": "七美鄉",
+    "ename_": "Qimei Township",
+    "postal_": "883",
+    "c001_id_parent_": "TW-PEN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-884",
+    "cname_": "白沙鄉",
+    "ename_": "Baisha Township",
+    "postal_": "884",
+    "c001_id_parent_": "TW-PEN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-885",
+    "cname_": "湖西鄉",
+    "ename_": "Huxi Township",
+    "postal_": "885",
+    "c001_id_parent_": "TW-PEN",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-890",
+    "cname_": "金沙鎮",
+    "ename_": "Jinsha Township",
+    "postal_": "890",
+    "c001_id_parent_": "TW-KM",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-891",
+    "cname_": "金湖鎮",
+    "ename_": "Jinhu Township",
+    "postal_": "891",
+    "c001_id_parent_": "TW-KM",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-892",
+    "cname_": "金寧鄉",
+    "ename_": "Jinning Township",
+    "postal_": "892",
+    "c001_id_parent_": "TW-KM",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-893",
+    "cname_": "金城鎮",
+    "ename_": "Jincheng Township",
+    "postal_": "893",
+    "c001_id_parent_": "TW-KM",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-894",
+    "cname_": "烈嶼鄉",
+    "ename_": "Lieyu Township",
+    "postal_": "894",
+    "c001_id_parent_": "TW-KM",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-896",
+    "cname_": "烏坵鄉",
+    "ename_": "Wuqiu Township",
+    "postal_": "896",
+    "c001_id_parent_": "TW-KM",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-900",
+    "cname_": "屏東市",
+    "ename_": "Pingtung City",
+    "postal_": "900",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-901",
+    "cname_": "三地門鄉",
+    "ename_": "Sandimen Township",
+    "postal_": "901",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-902",
+    "cname_": "霧臺鄉",
+    "ename_": "Wutai Township",
+    "postal_": "902",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-903",
+    "cname_": "瑪家鄉",
+    "ename_": "Majia Township",
+    "postal_": "903",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-904",
+    "cname_": "九如鄉",
+    "ename_": "Jiuru Township",
+    "postal_": "904",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-905",
+    "cname_": "里港鄉",
+    "ename_": "Ligang Township",
+    "postal_": "905",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-906",
+    "cname_": "高樹鄉",
+    "ename_": "Gaoshu Township",
+    "postal_": "906",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-907",
+    "cname_": "鹽埔鄉",
+    "ename_": "Yanpu Township",
+    "postal_": "907",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-908",
+    "cname_": "長治鄉",
+    "ename_": "Changzhi Township",
+    "postal_": "908",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-909",
+    "cname_": "麟洛鄉",
+    "ename_": "Linluo Township",
+    "postal_": "909",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-911",
+    "cname_": "竹田鄉",
+    "ename_": "Zhutian Township",
+    "postal_": "911",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-912",
+    "cname_": "內埔鄉",
+    "ename_": "Neipu Township",
+    "postal_": "912",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-913",
+    "cname_": "萬丹鄉",
+    "ename_": "Wandan Township",
+    "postal_": "913",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-920",
+    "cname_": "潮州鎮",
+    "ename_": "Chaozhou Township",
+    "postal_": "920",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-921",
+    "cname_": "泰武鄉",
+    "ename_": "Taiwu Township",
+    "postal_": "921",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-922",
+    "cname_": "來義鄉",
+    "ename_": "Laiyi Township",
+    "postal_": "922",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-923",
+    "cname_": "萬巒鄉",
+    "ename_": "Wanluan Township",
+    "postal_": "923",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-924",
+    "cname_": "崁頂鄉",
+    "ename_": "Kanding Township",
+    "postal_": "924",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-925",
+    "cname_": "新埤鄉",
+    "ename_": "Xinpi Township",
+    "postal_": "925",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-926",
+    "cname_": "南州鄉",
+    "ename_": "Nanzhou Township",
+    "postal_": "926",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-927",
+    "cname_": "林邊鄉",
+    "ename_": "Linbian Township",
+    "postal_": "927",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-928",
+    "cname_": "東港鎮",
+    "ename_": "Donggang Township",
+    "postal_": "928",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-929",
+    "cname_": "琉球鄉",
+    "ename_": "Liuqiu Township",
+    "postal_": "929",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-931",
+    "cname_": "佳冬鄉",
+    "ename_": "Jiadong Township",
+    "postal_": "931",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-932",
+    "cname_": "新園鄉",
+    "ename_": "Xinyuan Township",
+    "postal_": "932",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-940",
+    "cname_": "枋寮鄉",
+    "ename_": "Fangliao Township",
+    "postal_": "940",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-941",
+    "cname_": "枋山鄉",
+    "ename_": "Fangshan Township",
+    "postal_": "941",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-942",
+    "cname_": "春日鄉",
+    "ename_": "Chunri Township",
+    "postal_": "942",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-943",
+    "cname_": "獅子鄉",
+    "ename_": "Shizi Township",
+    "postal_": "943",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-944",
+    "cname_": "車城鄉",
+    "ename_": "Checheng Township",
+    "postal_": "944",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-945",
+    "cname_": "牡丹鄉",
+    "ename_": "Mudan Township",
+    "postal_": "945",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-946",
+    "cname_": "恆春鎮",
+    "ename_": "Hengchun Township",
+    "postal_": "946",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-947",
+    "cname_": "滿州鄉",
+    "ename_": "Manzhou Township",
+    "postal_": "947",
+    "c001_id_parent_": "TW-PIF",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-950",
+    "cname_": "臺東市",
+    "ename_": "Taitung City",
+    "postal_": "950",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-951",
+    "cname_": "綠島鄉",
+    "ename_": "Ludao Township",
+    "postal_": "951",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-952",
+    "cname_": "蘭嶼鄉",
+    "ename_": "Lanyu Township",
+    "postal_": "952",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-953",
+    "cname_": "延平鄉",
+    "ename_": "Yanping Township",
+    "postal_": "953",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-954",
+    "cname_": "卑南鄉",
+    "ename_": "Beinan Township",
+    "postal_": "954",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-955",
+    "cname_": "鹿野鄉",
+    "ename_": "Luye Township",
+    "postal_": "955",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-956",
+    "cname_": "關山鎮",
+    "ename_": "Guanshan Township",
+    "postal_": "956",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-957",
+    "cname_": "海端鄉",
+    "ename_": "Haiduan Township",
+    "postal_": "957",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-958",
+    "cname_": "池上鄉",
+    "ename_": "Chishang Township",
+    "postal_": "958",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-959",
+    "cname_": "東河鄉",
+    "ename_": "Donghe Township",
+    "postal_": "959",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-961",
+    "cname_": "成功鎮",
+    "ename_": "Chenggong Township",
+    "postal_": "961",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-962",
+    "cname_": "長濱鄉",
+    "ename_": "Changbin Township",
+    "postal_": "962",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-963",
+    "cname_": "太麻里鄉",
+    "ename_": "Taimali Township",
+    "postal_": "963",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-964",
+    "cname_": "金峰鄉",
+    "ename_": "Jinfeng Township",
+    "postal_": "964",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-965",
+    "cname_": "大武鄉",
+    "ename_": "Dawu Township",
+    "postal_": "965",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-966",
+    "cname_": "達仁鄉",
+    "ename_": "Daren Township",
+    "postal_": "966",
+    "c001_id_parent_": "TW-TTT",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-970",
+    "cname_": "花蓮市",
+    "ename_": "Hualien City",
+    "postal_": "970",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-971",
+    "cname_": "新城鄉",
+    "ename_": "Xincheng Township",
+    "postal_": "971",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-972",
+    "cname_": "秀林鄉",
+    "ename_": "Xiulin Township",
+    "postal_": "972",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-973",
+    "cname_": "吉安鄉",
+    "ename_": "Ji'an Township",
+    "postal_": "973",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-974",
+    "cname_": "壽豐鄉",
+    "ename_": "Shoufeng Township",
+    "postal_": "974",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-975",
+    "cname_": "鳳林鎮",
+    "ename_": "Fenglin Township",
+    "postal_": "975",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-976",
+    "cname_": "光復鄉",
+    "ename_": "Guangfu Township",
+    "postal_": "976",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-977",
+    "cname_": "豐濱鄉",
+    "ename_": "Fengbin Township",
+    "postal_": "977",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-978",
+    "cname_": "瑞穗鄉",
+    "ename_": "Ruisui Township",
+    "postal_": "978",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-979",
+    "cname_": "萬榮鄉",
+    "ename_": "Wanrong Township",
+    "postal_": "979",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-981",
+    "cname_": "玉里鎮",
+    "ename_": "Yuli Township",
+    "postal_": "981",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-982",
+    "cname_": "卓溪鄉",
+    "ename_": "Zhuoxi Township",
+    "postal_": "982",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-983",
+    "cname_": "富里鄉",
+    "ename_": "Fuli Township",
+    "postal_": "983",
+    "c001_id_parent_": "TW-HUA",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-CHA",
+    "cname_": "彰化縣",
+    "ename_": "Changhua County",
+    "postal_": "o12",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-CYI",
+    "cname_": "嘉義市",
+    "ename_": "Chiayi City",
+    "postal_": "o14",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-CYQ",
+    "cname_": "嘉義縣",
+    "ename_": "Chiayi County",
+    "postal_": "o15",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-HSQ",
+    "cname_": "新竹縣",
+    "ename_": "Hsinchu County",
+    "postal_": "o07",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-HSZ",
+    "cname_": "新竹市",
+    "ename_": "Hsinchu City",
+    "postal_": "o06",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-HUA",
+    "cname_": "花蓮縣",
+    "ename_": "Hualien County",
+    "postal_": "o26",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-ILA",
+    "cname_": "宜蘭縣",
+    "ename_": "Yilan County",
+    "postal_": "o05",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-KEE",
+    "cname_": "基隆市",
+    "ename_": "Keelung City",
+    "postal_": "o02",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-KHH",
+    "cname_": "高雄市",
+    "ename_": "Kaohsiung City",
+    "postal_": "o19",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-KHQ",
+    "cname_": "高雄縣",
+    "ename_": "Kaohsiung County",
+    "postal_": "o20",
+    "c001_id_parent_": "TW",
+    "display_": "N"
+  },
+  {
+    "id_": "TW-KM",
+    "cname_": "金門縣",
+    "ename_": "Kinmen County",
+    "postal_": "o23",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-LC",
+    "cname_": "連江縣",
+    "ename_": "Lienchiang County",
+    "postal_": "o04",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-MIA",
+    "cname_": "苗栗縣",
+    "ename_": "Miaoli County",
+    "postal_": "o09",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-NAN",
+    "cname_": "南投縣",
+    "ename_": "Nantou County",
+    "postal_": "o13",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-NH",
+    "cname_": "南海島",
+    "ename_": "Nanhai Islands",
+    "postal_": "o21",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-oth",
+    "cname_": "其它",
+    "ename_": "Others",
+    "postal_": "o27",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-PEN",
+    "cname_": "澎湖縣",
+    "ename_": "Penghu County",
+    "postal_": "o22",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-PIF",
+    "cname_": "屏東縣",
+    "ename_": "Pingtung County",
+    "postal_": "o24",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TAO",
+    "cname_": "桃園市",
+    "ename_": "Taoyuan City",
+    "postal_": "o08",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TNN",
+    "cname_": "臺南市",
+    "ename_": "Tainan City",
+    "postal_": "o17",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TNQ",
+    "cname_": "臺南縣",
+    "ename_": "Tainan County",
+    "postal_": "o18",
+    "c001_id_parent_": "TW",
+    "display_": "N"
+  },
+  {
+    "id_": "TW-TPE",
+    "cname_": "臺北市",
+    "ename_": "Taipei City",
+    "postal_": "o01",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TPQ",
+    "cname_": "新北市",
+    "ename_": "New Taipei City",
+    "postal_": "o03",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TTT",
+    "cname_": "臺東縣",
+    "ename_": "Taitung County",
+    "postal_": "o25",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TXG",
+    "cname_": "臺中市",
+    "ename_": "Taichung City",
+    "postal_": "o10",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  },
+  {
+    "id_": "TW-TXQ",
+    "cname_": "臺中縣",
+    "ename_": "Taichung County",
+    "postal_": "o11",
+    "c001_id_parent_": "TW",
+    "display_": "N"
+  },
+  {
+    "id_": "TW-YUN",
+    "cname_": "雲林縣",
+    "ename_": "Yunlin County",
+    "postal_": "o16",
+    "c001_id_parent_": "TW",
+    "display_": "Y"
+  }
+]

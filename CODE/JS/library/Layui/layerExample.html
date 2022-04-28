@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/css/layui.css" integrity="sha512-gK5o6RvUyTWSY+nO4Q9kJKGXbffUbV+u/R3bOAnCiOSIGt8GNDkvLvsQC2WaxyIQwGS56zpwt1TajavwKXBwKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/layui.js" integrity="sha512-lH7rGfsFWwehkeyJYllBq73IsiR7RH2+wuOVjr06q8NKwHp5xVnkdSvUm8RNt31QCROqtPrjAAd1VuNH0ISxqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="layui-container">
+        <div class="layui-row">
+            <div class="layui-col-sm12">
+                <button type="button" class="layui-btn layui-btn-sm" onClick="example.msg()">layer.msg()</button>
+                <button type="button" class="layui-btn layui-btn-sm" onClick="example.alert()">layer.alert()</button>
+                <button type="button" class="layui-btn layui-btn-sm" onClick="example.confirm()">layer.confirm()</button>
+                <button type="button" class="layui-btn layui-btn-sm" onClick="example.load()">layer.load()</button>
+                <button type="button" class="layui-btn layui-btn-sm" onClick="getDataFromAPI()">讀取API測試</button>
+                <!-- <button type="button" class="layui-btn layui-btn-sm" onClick="layer.msg('你按了按鈕')">layer.open()</button> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    class example{
+        static msg(){
+            layer.msg('你按了layer.msg()')
+        }
+        static alert(){
+            layer.alert('你按了layer.alert()')
+        }
+        static confirm(){
+            layer.confirm('要確定喔', (index)=>{
+                layer.msg('確定');
+            })
+        }
+        static load(){
+            layer.msg(
+                '<br/><br/><br/>努力讀取中...',
+                {time: 60000}
+            );
+            layer.load(1);
+        }
+    }
+    async function getDataFromAPI(){
+        //開讀取訊息及讀取遮罩
+        let loadingMsg = layer.msg(
+                '<br/><br/><br/>努力讀取中...',
+                {time: 60000}
+            );
+        let loadingMask = layer.load(1);
+
+        //卡住兩秒鐘才有Loading的感覺~
+        await new Promise(r => setTimeout(r, 2000));
+
+        //開始XHR
+        return await fetch('https://api.github.com/users/orange9982239/repos', {})
+        .then((response) => {
+            return response.json(); 
+        }).then((json) => {
+            console.log(json);
+            return json;
+        }).catch((err) => {
+            layer.msg('錯誤:', err);
+        }).finally(() => {
+            //關讀取訊息及讀取遮罩
+            layer.close(loadingMask);
+            layer.close(loadingMsg);
+        });
+    }
+</script>
+</html>
