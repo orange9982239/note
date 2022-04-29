@@ -22,7 +22,7 @@
 3. 編輯mount路徑
     * ![20220309155513](https://raw.githubusercontent.com/orange9982239/ImageHosting/master/images/20220309155513.png)
     1. 選擇磁碟機代號
-    2. 資料夾 `\\sshfs\cylee@192.168.1.1`
+    2. 資料夾 `\\sshfs\#account#@192.168.1.1`
        * 補充 => 若port不是在22，請更改名稱資料夾路徑`\\sshfs\#account#@192.168.1.1`
     3. 完成。 
 4. 輸入帳密並登入。
