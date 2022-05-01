@@ -284,5 +284,22 @@ volumes:
   db-data:
 ```
 
+## nginxwebui
+``` yaml 
+version: "3"
+services:
+  nginxWebUI:
+    image: cym1102/nginxwebui
+    ports: 
+      - "8080:8080" #声明端口 映射8080端口让外网能访问到该web访问地址 
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./data/nginxWebUI:/home/nginxWebUI ##存放nginxWebui数据文件目录
+      - ./www:/etc/nginx/html/:rw ##存放项目目录
+    # links:
+      # - php74
+      # - mysql:mysql
+```
 ## good docs
 > https://blog.gurucomputing.com.au/doing-more-with-docker/deploying-outline-wiki/
