@@ -301,5 +301,68 @@ services:
       # - php74
       # - mysql:mysql
 ```
+
+
+## registry
+``` yaml 
+version: '3'
+services:
+  registry:
+    container_name: registry
+    image: registry:2
+    ports:
+    - "7000:5000"
+    environment:
+      # REGISTRY_AUTH: htpasswd
+      # REGISTRY_AUTH_HTPASSWD_REALM: Registry
+      # REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
+    volumes:
+      # - ./auth:/auth
+      - ./data:/data
+```
+
+## LimeSurvey
+``` yaml 
+version: '3'
+services:
+  limesurvey:
+    hostname: LimeSurvey
+    restart: always
+    ports:
+      - "8888:80"
+    volumes:
+      - limesurvey_mysql:/var/lib/mysql
+      - limesurvey_config:/app/application/config
+      - limesurvey_upload:/app/upload
+    image:
+      crramirez/limesurvey:latest
+volumes:
+  limesurvey_mysql:
+  limesurvey_config:
+  limesurvey_upload:
+```
+
+## onlyoffice
+``` yaml 
+version: '3'
+services:
+  onlyoffice-documentserver:
+    container_name: onlyoffice
+    image: onlyoffice/documentserver:latest
+    restart: always
+    environment:
+      - JWT_ENABLED=true
+      - JWT_SECRET=ahSaTh4waeKe4zoocohngaihaub5pu
+    ports:
+      - 2222:80
+    volumes:
+      - /srv/onlyoffice/data:/var/www/onlyoffice/Data
+      - /srv/onlyoffice/lib:/var/lib/onlyoffice
+      - /srv/onlyoffice/logs:/var/log/onlyoffice
+      - /srv/onlyoffice/db:/var/lib/postgresql
+      - /srv/onlyoffice/fonts:/usr/share/fonts/
+```
+
 ## good docs
 > https://blog.gurucomputing.com.au/doing-more-with-docker/deploying-outline-wiki/
