@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.1/css/tom-select.min.css" integrity="sha512-agSW1HlkfW8Rp5AHF+ddRzaMV7beFu1i3ffoVpzIyRv3cyej3j+bxmRY0yai66Hds65/jXfmpvnt0I/We5/aFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.1/js/tom-select.complete.min.js" integrity="sha512-ZJCurSUMDC5lNSgwJqIs/c02+RgfiQXIy44GiurmaUDzw+3HOeYsQPBC5RckmjS4AdRdue7nQhJZIWyU1VOrug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <select id="myselect" placeholder="Start Typing..."></select>
+</body>
+
+<script>
+new TomSelect('#myselect',{
+	maxItems: null,
+	maxOptions: 100,
+	valueField: 'id',
+	labelField: 'title',
+	searchField: 'title',
+	sortField: 'title',
+	options: [
+        {
+            id: 1,
+            title: 'apple'
+        },
+        {
+            id: 2,
+            title: 'baana'
+        },
+        {
+            id: 3,
+            title: 'grava'
+        },
+        {
+            id: 4,
+            title: 'sdasgrava'
+        },
+        {
+            id: 5,
+            title: 'asdasgrava'
+        },
+        {
+            id: 5,
+            title: 'asdsadgrava'
+        },
+        {
+            id: 6,
+            title: 'gqweqerava'
+        },
+        {
+            id: 7,
+            title: 'qweqwgrava'
+        },
+        {
+            id: 8,
+            title: 'qweqewgrava'
+        },
+        {
+            id: 9,
+            title: 'qweqgrava'
+        }
+    ],
+	create: false
+});
+
+//get value
+// Array.from(document.querySelector('#select-junk').selectedOptions).map(x=>x.value)
+// https://tom-select.js.org/docs/api/
+</script>
+
+</html>
