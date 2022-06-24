@@ -11,7 +11,7 @@
     
 </body>
 <script>
-    class exceljsAutoMerge{
+    class ExceljsAutoMerge{
         // 用法 =>
         // new exceljsAutoMerge({
         //     fileName: 'myfileName.xlsx',
@@ -19,9 +19,9 @@
         //         {
         //             sheetName:'sheet1',
         //             columns:[
-        //                 {header: '欄位1', key:  'col1'},
-        //                 {header: '欄位2', key:  'col2'},
-        //                 {header: '欄位3', key:  'col3'},
+        //                 {header: '欄位1', key:  'col1', autoMerge: true},            //autoMerge == true 代表該欄資料若跟下一筆資料相同，則自動進行合併。
+        //                 {header: '欄位2', key:  'col2', autoMerge: true},
+        //                 {header: '欄位3', key:  'col3', autoMerge: false},
         //             ],
         //             jsonData:[
         //                 {col1:'A1',col2:'B1',col3:'C1'},
@@ -113,7 +113,7 @@
                 //檢查columns設定進行合併儲存格
                 sheet.columns.forEach((x,index) =>{
                     if (x.autoMerge) {
-                        // index => AA欄位代碼
+                        // index[0,1,2]轉Excel欄位代碼[A,B,C] => 
                         let columnText = this.toLetters(index + 1);
                         
                         //AA2開始
@@ -164,6 +164,7 @@
             });
         }
         toLetters(num) {
+            //數字轉EXCEL欄位編號
             var mod = num % 26,
                 pow = num / 26 | 0,
                 out = mod ? String.fromCharCode(64 + mod) : (--pow, 'Z');
@@ -171,11 +172,12 @@
         }
     }
     
-    new exceljsAutoMerge({
+    //範例 建立EXCEL並且下載。
+    new ExceljsAutoMerge({
         fileName: 'myfileName.xlsx',
         sheets: [
             {
-                sheetName:'sheet1',
+                sheetName:'第一個分頁名稱',
                 columns:[
                     {header: '帳號', key:  'user', width: 20, autoFilter: true, autoMerge: true},
                     {header: '檔名', key:  'fileName', width: 30, autoFilter: true, autoMerge: true},
@@ -192,6 +194,25 @@
                     {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
                     {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
                     {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
+                ]
+            },
+            {
+                sheetName:'第二個分頁名稱',
+                columns:[
+                    {header: '帳號', key:  'user', width: 20, autoFilter: true, autoMerge: true},
+                    {header: '附檔名', key:  'fileType', width: 30, autoFilter: true, autoMerge: true},
+                ],
+                jsonData:[
+                    {user:"A123123123",fileType:".jpg"},
+                    {user:"A123123123",fileType:".jpg"},
+                    {user:"A123123123",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
                 ]
             }
         ]
