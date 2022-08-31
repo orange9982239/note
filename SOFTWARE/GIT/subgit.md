@@ -6,8 +6,8 @@
 - [ ] install openjdk 
 - [ ] unzip Subgit to `C:\Subgit`
 - [ ] add path
-  - [ ] C:\Program Files\Microsoft\jdk-11.0.15.10-hotspot\bin
-  - [ ] C:\Subgit\bin
+  - [ ] java   => C:\Program Files\Microsoft\jdk-11.0.15.10-hotspot\bin
+  - [ ] subgit =>C:\Subgit\bin
 
 
 # subgit轉換指令
@@ -35,9 +35,9 @@ git push orign --all --follow-tags
 
 ## example
 ```ps
-subgit import --non-interactive --username <<SvnAccount>> --password <<SvnPassword>> --svn-url https://svn.domin.com/nttu/MyProject 
+subgit import --non-interactive --username <<SvnAccount>> --password <<SvnPassword>> --svn-url https://svn.domin.com/MyProject 
 
-subgit configure --layout directory https://svn.domin.com/nttu/MyProject MyProject.git
+subgit configure --layout directory https://svn.domin.com/MyProject MyProject.git
 
 code C:\MyProject\MyProject.git\subgit\passwd
 
