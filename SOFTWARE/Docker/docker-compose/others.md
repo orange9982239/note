@@ -21,7 +21,7 @@ services:
 ```
 <!--
 # environment:
-#   - GITLAB_ROOT_PASSWORD=#password#
+#   - GITLAB_ROOT_PASSWORD=<<password>>
 #   - GITLAB_ROOT_EMAIL=administrator@nttu.edu.tw 
 -->
 - ref
@@ -39,7 +39,7 @@ services:
     volumes:
       - "/usr/local/code-server/project:/home/coder/project"
     environment:
-      PASSWORD: "#password#"
+      PASSWORD: "<<password>>"
     restart: always
     user: "0:0"
 ```
