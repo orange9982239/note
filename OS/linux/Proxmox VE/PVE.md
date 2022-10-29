@@ -1,3 +1,37 @@
+# PVE 備份還原
+> https://pve.proxmox.com/wiki/Backup_and_Restore
+## 備份
+    
+1. 指定虛擬機 > 備份頁籤 > 立即備份
+    > ![20220727151445](https://raw.githubusercontent.com/orange9982239/ImageHosting/master/images/20220727151445.png)
+
+
+2. 備份
+    > ![20220727151808](https://raw.githubusercontent.com/orange9982239/ImageHosting/master/images/20220727151808.png)
+   
+## 還原
+1. local(PVE) > 備份 > 指定檔案 > 還原
+    > ![20220727152426](https://raw.githubusercontent.com/orange9982239/ImageHosting/master/images/20220727152426.png)
+2. 儲存     => 要將VM資料存在哪個硬碟
+   VM ID    => 填入不存在的VM代表進行`異機還原`，會自動建立VM
+   頻寬限制 => 限速用，以免拖垮效能。
+   唯一     => 勾選可避免複製VM時會出現uuid或mac衝突。
+   > ![20220727152635](https://raw.githubusercontent.com/orange9982239/ImageHosting/master/images/20220727152635.png)
+
+## 取出備份檔案
+1. vm預設備份路徑
+    ```bash
+    cd /var/lib/vz/dump/
+    ```
+2. scp 跨VM複製備份檔案
+    ```bash
+    # 登入PVE Server 192.168.1.2 
+    ssh root@192.168.1.2
+
+    # SCP複製備份檔案192.168.1.1複製至192.168.1.2
+    # 檔案路徑/var/lib/vz/dump/vzdump-qemu-101-2022_07_26-15_26_47.vma.zst
+    scp root@10.1.111.1:/var/lib/vz/dump/vzdump-qemu-101-2022_07_26-15_26_47.vma.zst /var/lib/vz/dump/vzdump-qemu-101-2022_07_26-15_26_47.vma.zst
+    ```
 # PVE 防火牆設定
 ## 一、資料中心防火牆
 > 先設定好`允許管理的群組`，再開防火牆，以免鎖死自己。

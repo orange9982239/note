@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+    <link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
+    <script src="https://jsuites.net/v4/jsuites.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <button type="button" class="btn btn-primary" onclick="window.spreadSheet.submit()">submit</button>
+            </div>
+            <div class="col-12 mt-3 overflow-auto">
+                <div id="spreadsheet"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    class SpreadSheet{
+        constructor(){
+            this.data;
+            this.sheet;
+            this.jsonData;
+
+            this.columns = [
+                { type: 'text', title:'Name', width:120 },
+                { type: 'text', title:'Account', width:200},
+                { type: 'text', title:'Password', width:250 },
+                { type: 'text', title:'Email', width:300 },
+                { type: 'checkbox', title:'Sex', width:80 },
+                { type: 'calendar', title:'Birthday', width:250, options: { format:'YYYY-MM-DD HH:mm:ss', time:1 } },
+                { type: 'calendar', title:'RegisterOn', width:250,  options: { format:'YYYY-MM-DD HH:mm:ss', time:1 } },
+                { type: 'checkbox', title:'IsEnable', width:100 }
+            ];
+
+            this.read();
+        }
+        read(){
+            this.data = (
+                [
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-1",
+                        "Password": "123456",
+                        "Email": "orange00099822391@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-2",
+                        "Password": "123456",
+                        "Email": "orange00099822392@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-3",
+                        "Password": "123456",
+                        "Email": "orange00099822393@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-4",
+                        "Password": "123456",
+                        "Email": "orange00099822394@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-5",
+                        "Password": "123456",
+                        "Email": "orange00099822395@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-6",
+                        "Password": "123456",
+                        "Email": "orange00099822396@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-7",
+                        "Password": "123456",
+                        "Email": "orange00099822397@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-8",
+                        "Password": "123456",
+                        "Email": "orange00099822398@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-9",
+                        "Password": "123456",
+                        "Email": "orange00099822399@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    },
+                    {
+                        "Name": "admin2",
+                        "Account": "A123123123-10",
+                        "Password": "123456",
+                        "Email": "orange000998223910@nttu.edu.tw",
+                        "Sex": true,
+                        "Birthday": "1995-06-05T07:46:16.000Z",
+                        "RegisterOn": "2022-06-23T08:35:23.000Z",
+                        "IsEnable": true
+                    }
+                ].map(x=>{
+                    return [
+                        x.Name,
+                        x.Account,
+                        x.Password,
+                        x.Email,
+                        x.Sex,
+                        new Date(x.Birthday).toISOString().substring(0, 19),
+                        new Date(x.RegisterOn).toISOString().substring(0, 19),
+                        x.IsEnable
+                    ]
+                })
+            );
+            this.sheet = jspreadsheet(document.getElementById('spreadsheet'), {
+                data: this.data,
+                columns: this.columns
+            });
+        }
+        submit(){
+            this.jsonData = this.sheet.getJson().map(x=>{
+                return {
+                    Name:x[0],
+                    Account:x[1],
+                    Password:x[2],
+                    Email:x[3],
+                    Sex:x[4],
+                    Birthday:new Date(x[5]).toISOString(),
+                    RegisterOn: new Date(x[6]).toISOString(),
+                    IsEnable:x[7],
+                }
+            })
+
+            console.log(this.jsonData);
+        }
+    }
+    document.addEventListener("DOMContentLoaded",function(){
+        window.spreadSheet = new SpreadSheet();
+    });
+</script>
+</html>

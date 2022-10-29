@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js" integrity="sha512-UnrKxsCMN9hFk7M56t4I4ckB4N/2HHi0w/7+B/1JsXIX3DmyBcsGpT3/BsuZMZf+6mAr0vP81syWtfynHJ69JA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    
+</body>
+<script>
+    class ExceljsAutoMerge{
+        // 用法 =>
+        // new exceljsAutoMerge({
+        //     fileName: 'myfileName.xlsx',
+        //     sheets: [
+        //         {
+        //             sheetName:'sheet1',
+        //             columns:[
+        //                 {header: '欄位1', key:  'col1', autoMerge: true},            //autoMerge == true 代表該欄資料若跟下一筆資料相同，則自動進行合併。
+        //                 {header: '欄位2', key:  'col2', autoMerge: true},
+        //                 {header: '欄位3', key:  'col3', autoMerge: false},
+        //             ],
+        //             jsonData:[
+        //                 {col1:'A1',col2:'B1',col3:'C1'},
+        //                 {col1:'A2',col2:'B2',col3:'C2'},
+        //                 {col1:'A3',col2:'B3',col3:'C3'},
+        //             ]
+        //         }, {
+        //             sheetName:'sheet2',
+        //             jsonData:[
+        //                 {sheet2col1:'sheet2-A1',sheet2col2:'sheet2-B1',sheet2col3:'sheet2-C1'},
+        //                 {sheet2col1:'sheet2-A2',sheet2col2:'sheet2-B2',sheet2col3:'sheet2-C2'},
+        //                 {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+        //             ]
+        //         }
+        //     ]
+        // }).download();        
+        constructor(data){
+            let self = this;
+
+            if(data == null) {
+                this.data = {
+                    fileName: 'myfileName.xlsx',
+                    sheets: [
+                        {
+                            sheetName:'sheet1',
+                            columns:[
+                                {header: '使用者', key:  'user'},
+                                {header: '檔案名稱', key:  'fileName'},
+                                {header: '欄位3', key:  'col3'},
+                            ],
+                            jsonData:[
+                                {user:'A123123123',fileName:'A123123123_26_A證明.jpg6_低收證明.jpg',col3:'C1'},
+                                {user:'A123123123',fileName:'A123123123_27_B證明.jpg',col3:'C2'},
+                                {user:'A123123123',fileName:'A123123123_28_C證明.jpg',col3:'C3'},
+                                {user:'A234234234',fileName:'A123123123_29_D證明.jpg',col3:'C3'},
+                                {user:'A234234234',fileName:'A123123123_26_A證明.jpg',col3:'C3'},
+                                {user:'A234234234',fileName:'A123123123_27_B證明.jpg',col3:'C3'},
+                                {user:'A234234234',fileName:'A123123123_28_C證明.jpg',col3:'C3'},
+                            ]
+                        }, {
+                            sheetName:'sheet2',
+                            jsonData:[
+                                {sheet2col1:'sheet2-A1',sheet2col2:'sheet2-B1',sheet2col3:'sheet2-C1'},
+                                {sheet2col1:'sheet2-A2',sheet2col2:'sheet2-B2',sheet2col3:'sheet2-C2'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                                {sheet2col1:'sheet2-A3',sheet2col2:'sheet2-B3',sheet2col3:'sheet2-C3'},
+                            ]
+                        }
+                    ]
+                };
+            } else {
+                this.data = data;
+            }
+            this.workbook = new ExcelJS.Workbook();
+            this.workbook.title = this.data.fileName;
+
+            this.data.sheets.forEach(sheet => {
+                //建立sheet
+                let worksheet = this.workbook.addWorksheet(sheet.sheetName);
+
+                //建立columns
+                if(sheet.columns == null){
+                    //sheet空白時 自動用data定義columns
+                    worksheet.columns = Object.keys(sheet.jsonData[0]).map((key, index) => {
+                        return {
+                            header: key, 
+                            key:  key
+                        }
+                    });
+                }else{
+                    worksheet.columns = sheet.columns;
+                }
+
+                //放進array資料
+                worksheet.addRows(sheet.jsonData);
+
+                //檢查columns設定進行合併儲存格
+                sheet.columns.forEach((x,index) =>{
+                    if (x.autoMerge) {
+                        // index[0,1,2]轉Excel欄位代碼[A,B,C] => 
+                        let columnText = this.toLetters(index + 1);
+                        
+                        //AA2開始
+                        let mergeStart = `${columnText}2`;
+                        for (let i = 0; i < sheet.jsonData.length; i++) {
+                            let rowindex = i+2;                                     //2     從第二列開始寫資料的         
+                            let excelLocated = `${columnText}${rowindex}`;          //AA2   當前儲存格代碼   
+                            let excelNextLocated = `${columnText}${rowindex+1}`;    //AA3   下一格儲存格代碼
+
+                            if (worksheet.getCell(excelLocated).value != worksheet.getCell(excelNextLocated).value){
+                                // 當與下格不同把前面的合併mergeStart 到 excelLocated 之間
+                                worksheet.mergeCells(mergeStart, excelLocated);
+
+                                // 重置mergeStart 開始下次合併
+                                mergeStart = excelNextLocated;
+                            }
+                        }
+                    }
+                })
+            });
+        }
+        download(){
+            let self = this;
+            this.workbook.xlsx.writeBuffer(
+                {
+                    base64: true
+                }
+            ).then( function (xls64) {
+                // build anchor tag and attach file (works in chrome)
+                let a = document.createElement("a");
+                let data = new Blob([xls64], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+
+                let url = URL.createObjectURL(data);
+                a.href = url;
+                a.download = self.data.fileName;
+                document.body.appendChild(a);
+                a.click();
+                setTimeout(
+                    function() {
+                        document.body.removeChild(a);
+                        window.URL.revokeObjectURL(url);
+                    },
+                    0
+                );
+            })
+            .catch(function(error) {
+                console.log(error.message);
+            });
+        }
+        toLetters(num) {
+            //數字轉EXCEL欄位編號
+            var mod = num % 26,
+                pow = num / 26 | 0,
+                out = mod ? String.fromCharCode(64 + mod) : (--pow, 'Z');
+            return pow ? toLetters(pow) + out : out;
+        }
+    }
+    
+    //範例 建立EXCEL並且下載。
+    new ExceljsAutoMerge({
+        fileName: 'myfileName.xlsx',
+        sheets: [
+            {
+                sheetName:'第一個分頁名稱',
+                columns:[
+                    {header: '帳號', key:  'user', width: 20, autoFilter: true, autoMerge: true},
+                    {header: '檔名', key:  'fileName', width: 30, autoFilter: true, autoMerge: true},
+                    {header: '附檔名', key:  'fileType', width: 30, autoFilter: true, autoMerge: false},
+                ],
+                jsonData:[
+                    {user:"A123123123",fileName:"A123123123-A低收證明文件",fileType:".jpg"},
+                    {user:"A123123123",fileName:"A123123123-B低收證明文件",fileType:".jpg"},
+                    {user:"A123123123",fileName:"A123123123-C低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-A低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-B低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-D低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
+                    {user:"A456456456",fileName:"A456456456-C低收證明文件",fileType:".jpg"},
+                ]
+            },
+            {
+                sheetName:'第二個分頁名稱',
+                columns:[
+                    {header: '帳號', key:  'user', width: 20, autoFilter: true, autoMerge: true},
+                    {header: '附檔名', key:  'fileType', width: 30, autoFilter: true, autoMerge: true},
+                ],
+                jsonData:[
+                    {user:"A123123123",fileType:".jpg"},
+                    {user:"A123123123",fileType:".jpg"},
+                    {user:"A123123123",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                    {user:"A456456456",fileType:".jpg"},
+                ]
+            }
+        ]
+    }).download();
+</script>
+</html>
