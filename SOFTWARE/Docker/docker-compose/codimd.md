@@ -6,8 +6,8 @@ services:
 		container_name: codimd_db
 		image: postgres:11.6-alpine
 		environment:
-			- POSTGRES_USER=#dbaccount#
-			- POSTGRES_PASSWORD=#dbpassword#
+			- POSTGRES_USER=<<dbaccount>>
+			- POSTGRES_PASSWORD=<<dbpassword>>
 			- POSTGRES_DB=codimd
 		volumes:
 			- /srv/codimd/postgresql:/var/lib/postgresql/data
@@ -16,7 +16,7 @@ services:
 		container_name: codimd_ap
 		image: hackmdio/hackmd:2.3.2
 		environment:
-			- CMD_DB_URL=postgres://#dbaccount#:#dbpassword#@codimd_db/codimd
+			- CMD_DB_URL=postgres://<<dbaccount>>:<<dbpassword>>@codimd_db/codimd
 			- CMD_USECDN=false
 			- CMD_ALLOW_ANONYMOUS=false
 			- CMD_ALLOW_EMAIL_REGISTER=false

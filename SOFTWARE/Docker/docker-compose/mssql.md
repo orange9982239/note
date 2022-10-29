@@ -12,7 +12,7 @@ services:
 		ports:
 			- "1433:1433"
 		environment:
-			SA_PASSWORD: "#dbpassword#"
+			SA_PASSWORD: "<<dbpassword>>"
 			ACCEPT_EULA: "Y"
 			MSSQL_PID: "Express"
 		volumes:
@@ -23,6 +23,6 @@ volumes:
 	smb:
     	driver_opts:
 			type: cifs
-			o: "username=#cifsaccount#,password=#cifspassword#"
+			o: "username=<<cifsaccount>>,password=<<cifspassword>>"
 			device: "//192.168.1.1/enroll"
 ```

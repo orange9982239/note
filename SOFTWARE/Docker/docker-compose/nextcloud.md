@@ -11,8 +11,8 @@ services:
 		volumes:
 			- /srv/nextcloud/mysql:/var/lib/mysql
 		environment:
-			- MYSQL_ROOT_PASSWORD=#dbpassword#
-			- MYSQL_PASSWORD=#dbpassword#
+			- MYSQL_ROOT_PASSWORD=<<dbpassword>>
+			- MYSQL_PASSWORD=<<dbpassword>>
 			- MYSQL_DATABASE=nextcloud
 			- MYSQL_USER=nextcloud
 			- NEXTCLOUD_TRUSTED_DOMAINS=#DomainName#
@@ -25,7 +25,7 @@ services:
 		volumes:
 			- /srv/nextcloud/html:/var/www/html
 		environment:
-			- MYSQL_PASSWORD=#dbpassword#
+			- MYSQL_PASSWORD=<<dbpassword>>
 			- MYSQL_DATABASE=nextcloud
 			- MYSQL_USER=nextcloud
 			- MYSQL_HOST=nextcloud_db

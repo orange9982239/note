@@ -11,8 +11,8 @@ services:
 			- 9000:9000
 		command: server /data
 		environment:
-			MINIO_ROOT_USER: #minioaccount#           			#管理后台用户名
-			MINIO_ROOT_PASSWORD: #miniopassword#      	#管理后台密码，最小8个字符
+			MINIO_ROOT_USER: <<minioaccount>>           			#管理后台用户名
+			MINIO_ROOT_PASSWORD: <<miniopassword>>      	#管理后台密码，最小8个字符
      	 volumes:
 			- /srv/minio/data:/data                      			 #映射当前目录下的data目录至容器内/data目录
 			- /srv/minio/config:/root/.minio/             		#映射配置目录
@@ -43,6 +43,6 @@ volumes:
 	smb:
     	driver_opts:
 			type: cifs
-			o: "username=#cifsaccount#,password=#cifspassword#"
+			o: "username=<<cifsaccount>>,password=<<cifspassword>>"
 			device: "//192.168.1.1/minio"
 ```
