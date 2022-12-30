@@ -11,6 +11,7 @@
 * ssh
   * openssh
   * cygrunsrv
+  * autossh
 * 備份
   * rsync
 * 加密
