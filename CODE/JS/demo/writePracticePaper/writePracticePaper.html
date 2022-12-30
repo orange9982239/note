@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="preload" href="/fonts/myfont.eot" as="font" crossorigin="anonymous" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<style>
+        /* 
+        https://github.com/max32002/naikaifont/blob/master/webfont/NaikaiFont-Bold.woff2
+        https://github.com/max32002/naikaifont/blob/master/webfont/NaikaiFont-ExtraLight.woff2
+        https://github.com/max32002/naikaifont/blob/master/webfont/NaikaiFont-Light.woff2
+        https://github.com/max32002/naikaifont/blob/master/webfont/NaikaiFont-Regular-Lite.woff2
+        https://github.com/max32002/naikaifont/blob/master/webfont/NaikaiFont-Regular.woff2
+        https://github.com/max32002/naikaifont/blob/master/webfont/NaikaiFont-SemiBold.woff2 
+        */
+        @font-face {
+            font-family: "NaikaiFont-Bold";
+            src: url(https://raw.githubusercontent.com/max32002/naikaifont/master/webfont/NaikaiFont-Bold.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "NaikaiFont-ExtraLight";
+            src: url(https://raw.githubusercontent.com/max32002/naikaifont/master/webfont/NaikaiFont-ExtraLight.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "NaikaiFont-Light";
+            src: url(https://raw.githubusercontent.com/max32002/naikaifont/master/webfont/NaikaiFont-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "NaikaiFont-Regular-Lite";
+            src: url(https://raw.githubusercontent.com/max32002/naikaifont/master/webfont/NaikaiFont-Regular-Lite.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "NaikaiFont-SemiBold";
+            src: url(https://raw.githubusercontent.com/max32002/naikaifont/master/webfont/NaikaiFont-SemiBold.woff2) format("woff2");
+        }
+        /* 
+        https://github.com/max32002/kurewa-gothic/blob/master/webfont/CJK%20TC/KurewaGothicCjkTc-Bold.woff2
+        https://github.com/max32002/kurewa-gothic/blob/master/webfont/CJK%20TC/KurewaGothicCjkTc-ExtraLight.woff2
+        https://github.com/max32002/kurewa-gothic/blob/master/webfont/CJK%20TC/KurewaGothicCjkTc-Light.woff2
+        https://github.com/max32002/kurewa-gothic/blob/master/webfont/CJK%20TC/KurewaGothicCjkTc-Regular.woff2
+        https://github.com/max32002/kurewa-gothic/blob/master/webfont/CJK%20TC/KurewaGothicCjkTc-SemiBold.woff2 
+        */
+        
+        @font-face {
+            font-family: "KurewaGothicCjkTc-Bold";
+            src: url(https://raw.githubusercontent.com/max32002/kurewa-gothic/master/webfont/CJK%20TC/KurewaGothicCjkTc-Bold.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "KurewaGothicCjkTc-ExtraLight";
+            src: url(https://raw.githubusercontent.com/max32002/kurewa-gothic/master/webfont/CJK%20TC/KurewaGothicCjkTc-ExtraLight.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "KurewaGothicCjkTc-Light";
+            src: url(https://raw.githubusercontent.com/max32002/kurewa-gothic/master/webfont/CJK%20TC/KurewaGothicCjkTc-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "KurewaGothicCjkTc-Regular";
+            src: url(https://raw.githubusercontent.com/max32002/kurewa-gothic/master/webfont/CJK%20TC/KurewaGothicCjkTc-Regular.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "KurewaGothicCjkTc-SemiBold";
+            src: url(https://raw.githubusercontent.com/max32002/kurewa-gothic/master/webfont/CJK%20TC/KurewaGothicCjkTc-SemiBold.woff2) format("woff2");
+        }
+
+        /* 
+        https://github.com/max32002/bakudaifont/blob/master/webfont/Bakudai-Bold.woff2
+        https://github.com/max32002/bakudaifont/blob/master/webfont/Bakudai-ExtraLight.woff2
+        https://github.com/max32002/bakudaifont/blob/master/webfont/Bakudai-Light.woff2
+        https://github.com/max32002/bakudaifont/blob/master/webfont/Bakudai-Medium.woff2
+        https://github.com/max32002/bakudaifont/blob/master/webfont/Bakudai-Regular.woff2 
+        */
+        @font-face {
+            font-family: "Bakudai-Bold";
+            src: url(https://raw.githubusercontent.com/max32002/bakudaifont/master/webfont/Bakudai-Bold.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "Bakudai-Light";
+            src: url(https://raw.githubusercontent.com/max32002/bakudaifont/master/webfont/Bakudai-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Bakudai-ExtraLight";
+            src: url(https://raw.githubusercontent.com/max32002/bakudaifont/master/webfont/Bakudai-ExtraLight.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Bakudai-Medium";
+            src: url(https://raw.githubusercontent.com/max32002/bakudaifont/master/webfont/Bakudai-Medium.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Bakudai-Regular";
+            src: url(https://raw.githubusercontent.com/max32002/bakudaifont/master/webfont/Bakudai-Regular.woff2) format("woff2");
+        }
+
+
+
+
+
+
+        @font-face {
+            font-family: "MasaFont-Bold";
+            src: url(https://raw.githubusercontent.com/max32002/masafont/master/webfont/MasaFont-Bold.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "MasaFont-ExtraLight";
+            src: url(https://raw.githubusercontent.com/max32002/masafont/master/webfont/MasaFont-ExtraLight.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "MasaFont-Light";
+            src: url(https://raw.githubusercontent.com/max32002/masafont/master/webfont/MasaFont-Light.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "JasonHandwriting1-ExtraLight";
+            src: url(https://raw.githubusercontent.com/max32002/masafont/master/webfont/MasaFont-Regular.woff2) format("woff2");
+        }
+
+
+        @font-face {
+            font-family: "JasonHandwriting1-ExtraLight";
+            src: url(https://raw.githubusercontent.com/max32002/JasonHandWritingFonts/master/webfont/JasonHandwriting1-ExtraLight.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "JasonHandwriting1-Regular";
+            src: url(https://raw.githubusercontent.com/max32002/JasonHandWritingFonts/master/webfont/JasonHandwriting1-Regular.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "JasonHandwriting2-Regular";
+            src: url(https://raw.githubusercontent.com/max32002/JasonHandWritingFonts/master/webfont/JasonHandwriting2-Regular.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "JasonHandwriting3-Regular";
+            src: url(https://raw.githubusercontent.com/max32002/JasonHandWritingFonts/master/webfont/JasonHandwriting3-Regular.woff2) format("woff2");
+        }
+        @font-face {
+            font-family: "JasonHandwriting4-Regular";
+            src: url(https://raw.githubusercontent.com/max32002/JasonHandWritingFonts/master/webfont/JasonHandwriting4-Regular.woff2) format("woff2");
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif, Fallback, sans-serif;
+            background: rgb(204, 204, 204);
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        }
+
+        page[size="A4"] {
+            width: 21cm;
+            height: 29.7cm;
+            /* height: 30.82cm; */
+        }
+
+        @media print {
+            body,
+            page {
+                margin: 0;
+                box-shadow: 0;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+
+        table {
+            margin: auto;
+            table-layout: fixed;
+        }
+
+        tr {
+            height: 50px
+        }
+
+        td {
+            border-style: solid;
+            border-color: rgba(255, 0, 0, 0.5);
+            border-width: thin;
+            text-align: center;
+            font-size: 30px;
+            color: rgba(0, 0, 0, 0.3);
+            /* width: calc(50px - 4px); */
+            width: 50px;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NS4yMiA3NS4yMiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtvcGFjaXR5OjAuMzt9LmNscy0yLC5jbHMtM3tmaWxsOm5vbmU7c3Ryb2tlOiNlNjAwMTI7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fS5jbHMtM3tzdHJva2UtZGFzaGFycmF5OjQuNzggNC43ODt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPuizh+eUoiAxPC90aXRsZT48ZyBpZD0i5ZyW5bGkXzIiIGRhdGEtbmFtZT0i5ZyW5bGkIDIiPjxnIGlkPSLlnJblsaRfMS0yIiBkYXRhLW5hbWU9IuWcluWxpCAxIj48ZyBjbGFzcz0iY2xzLTEiPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9Ijc0Ljg2IiB5MT0iMC4zNSIgeDI9IjczLjEiIHkyPSIyLjEyIi8+PGxpbmUgY2xhc3M9ImNscy0zIiB4MT0iNjkuNzIiIHkxPSI1LjUiIHgyPSIzLjgxIiB5Mj0iNzEuNDEiLz48bGluZSBjbGFzcz0iY2xzLTIiIHgxPSIyLjEyIiB5MT0iNzMuMSIgeDI9IjAuMzUiIHkyPSI3NC44NiIvPjwvZz48ZyBjbGFzcz0iY2xzLTEiPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9Ijc0Ljg2IiB5MT0iNzQuODYiIHgyPSI3My4xIiB5Mj0iNzMuMSIvPjxsaW5lIGNsYXNzPSJjbHMtMyIgeDE9IjY5LjcyIiB5MT0iNjkuNzIiIHgyPSIzLjgxIiB5Mj0iMy44MSIvPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjIuMTIiIHkxPSIyLjEyIiB4Mj0iMC4zNSIgeTI9IjAuMzUiLz48L2c+PC9nPjwvZz48L3N2Zz4=);
+            background-size: contain;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<body>
+    <!-- 頁寬(800-100) = 700 -->
+    <!-- 方形格子大小 700\11 -->
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        Swal.fire({
+            title: `輸入想要生成字帖的文字段落`, 
+            html: `
+            <div class ="container">
+                <div class ="row">
+                    <div class ="col-12 mt-3">                        
+                        <select id="selectFont" class="form-select" size="5">
+                            <option value="Arial" selected>還沒選擇字體</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mt-3"> 
+                        <textarea id="inputTextBook" class="form-control" rows="10" placeholder="輸入想要生成字帖的文字段落" ></textarea>
+                    </div>
+                </div>
+            </div>`, 
+            showCancelButton: true,
+            didOpen: () => {
+                // selectFont
+                Array.from(document.fonts).forEach(font => {
+                    let fontOption = new Option(font.family, font.family)
+                    fontOption.setAttribute("style",`font-family:${font.family}`)
+                    // debugger
+                    // if(document.fonts.status == "loading"){
+                    //     fontOption.setAttribute("disabled","true")
+                    // }
+                    selectFont.add(fontOption);
+                });
+            }
+        }).then((swalObj)=> {
+            if (swalObj.isConfirmed) {
+                creatPage(inputTextBook.value,selectFont.value)
+                Swal.fire(
+                    '建立成功!',
+                    '可以印出來練字囉',
+                    'success'
+                )
+            }
+            if (swalObj.isDismissed) {
+                Swal.fire(
+                    'Cancelled',
+                    '清除內容',
+                    'info'
+                )      
+            }
+        })
+    })
+    function creatPage(txt ,fontfamily) {
+        var tdnum = 14;
+        var trnum = 20
+        var rows = txt.toString().split('\n');
+
+        //取出總行數
+        var html_tr_array = [];
+        rows.forEach(row => {
+            //超過num長度者切成多行
+            let formatedRowArray = row.match(new RegExp(`.{1,${tdnum}}`, 'g'));
+            // console.log(formatedRowArray);
+
+            
+            if (formatedRowArray != null) {
+                //多行資料加入Array
+                formatedRowArray.map(tr => {
+                    html_tr_array.push(`<tr>
+                        ${Array.from(tr).map(td => { return `<td style="font-family: ${fontfamily}">${td}</td>`; }).join('')}
+                    </tr>`);
+                });
+            }
+            else {
+                //處理空白行
+                html_tr_array.push(`<tr></tr>`);
+            }
+        })
+        // console.log(html_tr_array);
+
+        // 映射物件 加入頁面欄位
+        var groupedDataMapPage = html_tr_array.map((x, i) => {
+            return {
+                page: Math.ceil((i + 1) / trnum),
+                value: x
+            }
+        })
+        // console.log(groupedDataMapPage);
+
+        // 映射物件 加入頁面欄位
+        var groupedData = [];
+        groupedDataMapPage.forEach((x, i) => {
+            groupIndex = x.page - 1;
+            if (groupedData[groupIndex] == undefined) { groupedData.push([]) }
+            groupedData[groupIndex].push(x.value);
+        })
+        // console.log(groupedData);
+
+        var pageout = groupedData.map(page => {
+            // console.log(page);
+            return `<page size="A4" style="padding: 50px;">
+                <table> 
+                    <tbody>
+                        ${page.map(tr => { return tr; }).join('')}
+                    </tbody>
+                </table>
+            </page>`;
+        }).join('');
+        // console.log(pageout);
+
+        document.querySelector("body").innerHTML = pageout;
+    }
+</script>
+
+</html>
