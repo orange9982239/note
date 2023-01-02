@@ -43,3 +43,15 @@ Do While Not myRs.EOF
     myRs.MoveNexts 
 Loop 
 ```
+
+## VBA 密碼更改
+1. 副檔名改zip
+2. 取出`vbaProject.bin` => `zip檔案/xl/vbaProject.bin`
+3. 用notepad++替換三行
+    ```
+    CMG="2D2F81B49F27A327A323A723A7"
+    DPB="9C9E3025F0890D890D76F38A0D1A9F3635D44E8607D4CD2B0C2CEE3AE60EBAA7585DAC156B9D"
+    GC="0B09A7DA17DB17DB17"
+    ```
+4. `vbaProject.bin`複蓋回zip檔案
+5. 副檔名改回xlsm，打開VBA密碼變成`00000000`
