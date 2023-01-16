@@ -44,6 +44,30 @@
             );
             layer.load(1);
         }
+        static loadwithmask(){
+            let layerLoadIndex = layer.load(2); //三種Loading icon 參數->0,1,2
+            // 等待XHR...
+            layer.close(layerLoadIndex);
+        }
+        static form(){
+            layer.open({
+                type: 1,
+                title: '修改申請',
+                area: ['40vw', '80vh'],
+                offset:['56px','10vw'],
+                anim: 2,
+                shade:0,
+                shadeClose: false,
+                content: `
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            1233211234567
+                        </div>
+                    </div>
+                </div>`
+            });
+        }
     }
     async function getDataFromAPI(){
         //開讀取訊息及讀取遮罩
