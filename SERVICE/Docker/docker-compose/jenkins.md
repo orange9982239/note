@@ -3,16 +3,16 @@
 ``` yaml
 version: '3.8'
 services:
-	jenkins:
-		container_name: jenkins
-		image: jenkins/jenkins:lts
-		privileged: true
-		user: root
-		ports:
-			- 8080:8080
-			- 50000:50000
-		volumes:
-			- /srv/jenkins:/var/jenkins_home
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - /srv/jenkins:/var/jenkins_home
 ```
 
 # 執行PYTHON SCRIPT
@@ -41,10 +41,10 @@ PYTHON_SCRIPT
 # Finished: SUCCESS
 ```
 3. tip
-	* 注意是python3，作業系統似乎內置了python2
-	* 建議先寫好python
-    	* 若引用pip包，需要先進container安裝
-    	* 在container嘗試執行
-    	* 再丟進heredoc
+  * 注意是python3，作業系統似乎內置了python2
+  * 建議先寫好python
+      * 若引用pip包，需要先進container安裝
+      * 在container嘗試執行
+      * 再丟進heredoc
 * 參考
-	https://zh.wikipedia.org/zh-tw/Here%E6%96%87%E6%A1%A3
+  https://zh.wikipedia.org/zh-tw/Here%E6%96%87%E6%A1%A3
