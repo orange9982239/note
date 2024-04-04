@@ -16,11 +16,11 @@
 > `外面OS`的目錄對應`CONTAINER內部`的目錄，也能用來掛cifs或sftp
 ``` yaml
 volumes:
-	cifs:
-    	driver_opts:
-			type: cifs
-			o: "username=<<cifsaccount>>,password=<<cifspassword>>"
-			device: "//192.168.1.1/<<sharefolder>>"
+  cifs:
+    driver_opts:
+    type: cifs
+    o: "username=<<cifsaccount>>,password=<<cifspassword>>"
+    device: "//192.168.1.1/<<sharefolder>>"
 ```
 ## command
 > 似乎是啟動container後下指令用的，可以用來包`npm run`、`dotnet run`...之類的指令
